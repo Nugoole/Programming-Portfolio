@@ -1,0 +1,5 @@
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\ALT.UC\obj\Release\ALT.UC.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\ALT.UC\obj\Release\UCDSMaxView.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\ALT.UC\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\ALT.UC\obj\Release\ALT.UC_MarkupCompile.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\ALT.UC\obj\Release\ALT.UC_MarkupCompile.lref

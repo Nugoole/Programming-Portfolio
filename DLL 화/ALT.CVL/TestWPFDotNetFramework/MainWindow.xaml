@@ -1,0 +1,59 @@
+﻿<Window
+    x:Class="TestWPFDotNetFramework.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:TestWPFDotNetFramework"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Opacity="{Binding Opacity}"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <Window.DataContext>
+        <local:VMTestWPFDotNetFramework />
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Button
+                Grid.Row="0"
+                Grid.Column="0"
+                Width="50"
+                Height="30"
+                Command="{Binding OnStart}"
+                Content="Start" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="0"
+                Width="50"
+                Height="30"
+                Command="{Binding OnStop}"
+                Content="Start" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="0"
+                Width="50"
+                Height="30"
+                Command="{Binding OnOpenWindow}"
+                CommandParameter="{Binding Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}"
+                Content="Start" />
+        </Grid>
+
+        <ContentControl
+            Grid.Column="1"
+            Content="{Binding Content}"
+            Opacity="0.2" />
+        <ContentControl Grid.Column="2" Content="{Binding Content2}" />
+    </Grid>
+</Window>

@@ -1,0 +1,76 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ALT.TIS.EssenCore.OCRMemory.Views"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:Custom="http://www.galasoft.ch/mvvmlight" x:Class="ALT.TIS.EssenCore.OCRMemory.Views.MainWindow"
+        mc:Ignorable="d"
+        Title="Vision Inspector" Height="1080" Width="1920" WindowState="Maximized" DataContext="{Binding Source={StaticResource Locator}}" ResizeMode="CanMinimize">
+    <Window.Effect>
+        <BlurEffect Radius="{Binding Main.BlurEffectRadius}"/>
+    </Window.Effect>
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Closing">
+            <Custom:EventToCommand Command="{Binding Main.CmdClose}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Grid Background="#FF404040">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <ContentControl Content="LOGO" Style="{DynamicResource TextBlockStyleMainMenu}" Margin="2" Grid.Column="2"/>
+        <ContentControl Content="Inspection Title" Style="{DynamicResource TextBlockStyleMainMenu}" Grid.Column="1"/>
+        <Border BorderBrush="White" BorderThickness="3" Grid.RowSpan="4">
+            <StackPanel>
+                <ContentControl x:Name="VersionPanel" Style="{DynamicResource TextBlockStyleMainMenu}" Margin="5" Height="100" Content="{Binding Environment.CurrentVersion}"/>
+                <ContentControl x:Name="DateTime" Style="{DynamicResource TextBlockStyleMainMenu}" Margin="5" Height="40" Content="{Binding Environment.CurrentDateTime}"/>
+                <Border BorderThickness="2" BorderBrush="#FFC8C8C8" Margin="5">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Style="{DynamicResource TblStyleStandard}" Text="CPU" Margin="5"/>
+                        <TextBlock Style="{DynamicResource TblStyleStandard}" Text="MEM" Grid.Row="1" Margin="5"/>
+                        <TextBlock Style="{DynamicResource TblStyleStandard}" Text="HDD" Grid.Row="2" Margin="5"/>
+
+                        <ProgressBar Grid.Row="0" Grid.Column="1" Margin="5" IsIndeterminate="False" Value="{Binding Environment.CPUUsage}"/>
+                        <ProgressBar Grid.Row="1" Grid.Column="1" Margin="5" IsIndeterminate="False" Value="{Binding Environment.MemoryUsage}"/>
+                        <ProgressBar Grid.Row="2" Grid.Column="1" Margin="5" IsIndeterminate="False" Value="{Binding Environment.HDDUsage}"/>
+                        <TextBlock Style="{DynamicResource TblStyleStandard}" Text="{Binding Environment.CPUUsage, StringFormat=\{0:n0\}%}" Grid.Column="2" Margin="5"/>
+                        <TextBlock Style="{DynamicResource TblStyleStandard}" Text="{Binding Environment.MemoryUsage, StringFormat=\{0:n0\}%}" Grid.Row="1" Grid.Column="2"/>
+                        <TextBlock Style="{DynamicResource TblStyleStandard}" Text="{Binding Environment.HDDUsage, StringFormat=\{0:n0\}%}" Grid.Row="2" Grid.Column="2"/>
+                    </Grid>
+
+                </Border>
+                <ContentControl Style="{DynamicResource TextBlockStyleMainMenu}" Margin="5" Height="40" Content="{Binding FileIO.CurrentJobName}"/>
+                <Button Content="START" Style="{DynamicResource ButtonStyleMainMenu}" Margin="20,20,20,5" Height="50"/>
+                <Button Content="STOP" Style="{DynamicResource ButtonStyleMainMenu}" Margin="20,5,20,25" Height="50" />
+                <RadioButton Content="MAIN" Style="{DynamicResource RadioButtonStyle1}" Command="{Binding Main.CmdShowMainView}" GroupName="MainMenuGroup" Height="60"/>
+                <RadioButton Content="LOG" Style="{DynamicResource RadioButtonStyle1}" Command="{Binding Main.CmdShowLogView}" GroupName="MainMenuGroup" Height="60" Visibility="{Binding Main.IsAdmin}"/>
+                <RadioButton Content="RECIPE" Style="{DynamicResource RadioButtonStyle1}" Command="{Binding Main.CmdShowRecipeView}" GroupName="MainMenuGroup" Height="60"/>
+                <RadioButton Content="IO" Style="{DynamicResource RadioButtonStyle1}" Command="{Binding Main.CmdShowIOView}" GroupName="MainMenuGroup" Height="60"/>
+                <RadioButton Content="RESULT" Style="{DynamicResource RadioButtonStyle1}" Command="{Binding Main.CmdShowResultView}" GroupName="MainMenuGroup" Height="60"/>
+                <RadioButton Content="CONFIG" Style="{DynamicResource RadioButtonStyle1}" Command="{Binding Main.CmdShowConfigView}" GroupName="MainMenuGroup" Height="60"/>
+                <Button Content="ACCESS" Style="{DynamicResource ButtonStyleMainMenu}" Margin="20,5" Height="50" Command="{Binding Main.CmdShowAccessWindow}"/>
+                <Button Content="EXIT" Style="{DynamicResource ButtonStyleMainMenu}" Margin="20,55,20,5" Height="50" Command="{Binding Main.CmdClose}"/>
+            </StackPanel>
+        </Border>
+        <ContentControl Content="{Binding Main.UCMainView}" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1"/>
+    </Grid>
+</Window>

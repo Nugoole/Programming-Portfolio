@@ -1,0 +1,66 @@
+﻿<ResourceDictionary
+    x:Class="ALT.CVL.Controls.Dictionary.DictionaryUC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dict="clr-namespace:ALT.CVL.Controls.Dictionary">
+
+    <dict:ReverseBooleanConverter x:Key="ReverseBooleanConverter" />
+    <!--  general type datatemplate  -->
+    <DataTemplate x:Key="commonParameterTemplate" DataType="{x:Type ListViewItem}">
+        <Grid Height="20" ClipToBounds="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{Binding Name}" />
+            <TextBox
+                Grid.Column="1"
+                Width="100"
+                Margin="0,0,10,0"
+                HorizontalAlignment="Right"
+                AcceptsReturn="False"
+                IsEnabled="{Binding IsReadOnly, Converter={StaticResource ReverseBooleanConverter}}"
+                KeyDown="TextBox_KeyDown"
+                MaxLength="10"
+                Text="{Binding Value, Mode=TwoWay, UpdateSourceTrigger=Explicit}"
+                TextAlignment="Right" />
+        </Grid>
+    </DataTemplate>
+
+    <!--  boolean type datatemplate  -->
+    <DataTemplate x:Key="booleanParameterTemplate" DataType="{x:Type ListViewItem}">
+        <Grid Height="20" ClipToBounds="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{Binding Name}" />
+            <CheckBox
+                Grid.Column="1"
+                Margin="0,0,10,0"
+                HorizontalAlignment="Right"
+                IsChecked="{Binding Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                IsEnabled="{Binding IsReadOnly, Converter={StaticResource ReverseBooleanConverter}}" />
+        </Grid>
+    </DataTemplate>
+
+    <!--  Enum type datatemplate  -->
+    <DataTemplate x:Key="enumParameterTemplate" DataType="{x:Type ListViewItem}">
+        <Grid Height="20" ClipToBounds="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{Binding Name}" />
+            <ComboBox
+                Grid.Column="1"
+                Width="100"
+                Margin="0,0,10,0"
+                HorizontalAlignment="Right"
+                IsEnabled="{Binding IsReadOnly, Converter={StaticResource ReverseBooleanConverter}}"
+                ItemsSource="{Binding AvailableValues}"
+                SelectedItem="{Binding Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        </Grid>
+    </DataTemplate>
+
+</ResourceDictionary>

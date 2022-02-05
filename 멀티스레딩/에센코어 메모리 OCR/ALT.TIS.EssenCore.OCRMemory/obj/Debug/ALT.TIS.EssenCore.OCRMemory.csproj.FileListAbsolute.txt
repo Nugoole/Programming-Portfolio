@@ -1,0 +1,266 @@
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.EssenCore.OCRMemory.exe.config
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.EssenCore.OCRMemory.exe
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.EssenCore.OCRMemory.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.CVL.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.Logger.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Controls.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Core.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Display.Controls.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.OCRMax.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\CommonServiceLocator.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\log4net.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\TIS_OCRVisionTool.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.PMAlign.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.CalibFix.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ID.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Display.Controls.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.CorePlus.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Graphic.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ImageFile.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ImageProcessing.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Core.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.FGGigE.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ToolGroup.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Interop.Core.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\stdole.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\TIS_OCRVisionTool.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Core.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Display.Controls.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.OCRMax.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\log4net.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.PMAlign.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.CalibFix.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ID.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Display.Controls.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.CorePlus.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Graphic.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ImageFile.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ImageProcessing.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Core.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.FGGigE.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ToolGroup.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Dictionaries\DictionaryButtonStyle.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Dictionaries\DictionaryListView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Dictionaries\DictionaryLogViewerStyle.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Dictionaries\DictionaryTextBlock.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\MainWindow.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCCameraView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCConfigView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCIOView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCLogView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCRecipeView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCResultView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\WdAccess.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\WdRecipeAdd.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\App.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory_MarkupCompile.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory_MarkupCompile.lref
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\App.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\MainWindow.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCCameraView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCConfigView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCIOView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCLogView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCRecipeView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCResultView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\WdAccess.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\WdRecipeAdd.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.g.resources
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.Properties.Resources.resources
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.csproj.CopyComplete
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.exe
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory_Content.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.CVL.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Dimensioning.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Dimensioning.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.Serialize.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.Serialize.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.ResultViewer.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.ResultViewer.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.ResultViewer.dll.config
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.DB.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\EntityFramework.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.DB.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.DB.dll.config
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\EntityFramework.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ko\EntityFramework.SqlServer.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.Logger.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.EssenCore.OCRMemory.exe.config
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.EssenCore.OCRMemory.exe
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.EssenCore.OCRMemory.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.CVL.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.ResultViewer.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.Serialize.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.DB.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Controls.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Core.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Dimensioning.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Display.Controls.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.OCRMax.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.PMAlign.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\CommonServiceLocator.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\EntityFramework.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\EntityFramework.SqlServer.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\log4net.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Newtonsoft.Json.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\System.Windows.Interactivity.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\TIS_OCRVisionTool.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.CalibFix.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ID.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Display.Controls.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.CorePlus.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Graphic.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ImageFile.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ImageProcessing.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Core.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.FGGigE.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ToolGroup.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Interop.Core.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\stdole.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.CVL.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.ResultViewer.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.ResultViewer.dll.config
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.Serialize.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.DB.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ALT.TIS.DB.dll.config
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\TIS_OCRVisionTool.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Core.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Dimensioning.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.Display.Controls.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.OCRMax.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.PMAlign.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\EntityFramework.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\EntityFramework.SqlServer.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\log4net.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Newtonsoft.Json.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.CalibFix.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ID.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Display.Controls.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.CorePlus.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Graphic.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ImageFile.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ImageProcessing.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.Core.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.FGGigE.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro3D.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Cognex.VisionPro.ToolGroup.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ko\EntityFramework.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ko\EntityFramework.SqlServer.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.csprojAssemblyReference.cache
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Dictionaries\DictionaryButtonStyle.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Dictionaries\DictionaryListView.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Dictionaries\DictionaryLogViewerStyle.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Dictionaries\DictionaryTextBlock.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\MainWindow.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCCameraView.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCConfigView.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCIOView.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCLogView.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCRecipeView.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCResultView.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\WdAccess.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\WdRecipeAdd.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\App.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory_Content.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory_MarkupCompile.cache
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory_MarkupCompile.lref
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\App.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\MainWindow.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCCameraView.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCConfigView.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCIOView.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCLogView.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCRecipeView.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\UCResultView.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\WdAccess.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\Views\WdRecipeAdd.baml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.g.resources
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.Properties.Resources.resources
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.csproj.GenerateResource.cache
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.csproj.CoreCompileInputs.cache
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.csproj.CopyComplete
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.exe
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\Debug\ALT.TIS.EssenCore.OCRMemory.pdb

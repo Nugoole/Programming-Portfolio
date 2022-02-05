@@ -1,0 +1,11 @@
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\bin\Release\ALT.CVL.BaslerCam.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\bin\Release\ALT.CVL.BaslerCam.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\bin\Release\ALT.CVL.Common.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\bin\Release\Basler.Pylon.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\bin\Release\ALT.CVL.Common.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\bin\Release\Basler.Pylon.xml
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\obj\Release\ALT.CVL.BaslerCam.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\obj\Release\ALT.CVL.BaslerCam.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\obj\Release\ALT.CVL.BaslerCam.csproj.CopyComplete
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\obj\Release\ALT.CVL.BaslerCam.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.BaslerCam\obj\Release\ALT.CVL.BaslerCam.pdb

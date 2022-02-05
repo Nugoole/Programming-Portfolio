@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Viewer.Cog3DViewer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:cog="clr-namespace:Cognex.VisionPro3D;assembly=Cognex.VisionPro3D.Display.Controls"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Viewer"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="1*"/>
+            <RowDefinition Height="28"/>
+        </Grid.RowDefinitions>
+        <cog:Cog3DDisplayV2 Grid.Row ="0" x:Name="Viewer"/>
+        <Button x:Name="crossSectionWindowButton" Visibility="Hidden" Width="30" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Click="Button_Click"/>
+        <cog:Cog3DDisplayV2StatusBar x:Name="statusBar" Grid.Row="1" Margin="0,0,0,0"></cog:Cog3DDisplayV2StatusBar>
+    </Grid>
+</UserControl>

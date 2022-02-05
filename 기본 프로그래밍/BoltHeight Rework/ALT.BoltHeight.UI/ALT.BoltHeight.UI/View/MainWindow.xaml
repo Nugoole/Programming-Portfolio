@@ -1,0 +1,214 @@
+﻿<Window x:Class="ALT.BoltHeight.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:material="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:ALT.BoltHeight.Views"
+        mc:Ignorable="d"
+        Title="ALT System" Height="1040" Width="1920" DataContext="{Binding Main, Source={StaticResource Locator}}" Background="#FFB9C1C6" WindowStyle="None" WindowState="Maximized" RenderOptions.EdgeMode="Aliased">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Closed">
+            <i:InvokeCommandAction Command="{Binding Path=OnClosing}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid  Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+
+        <Grid Grid.Row="0" Grid.Column="0" Background="#FF1DCA1D">
+            <Image Source="../Resources/logo-white.png" RenderOptions.BitmapScalingMode="HighQuality" RenderOptions.EdgeMode="Aliased"/>
+        </Grid>
+
+        <Grid x:Name="grid" Grid.Row="0" Grid.Column="1" Background="#FF353942">
+            <Label  Content="ALT SYSTEM MACHINE VISION PROGRAM" Height="{Binding ActualHeight, ElementName=grid, Mode=OneWay}" HorizontalAlignment="Left" VerticalContentAlignment="Center" FontFamily="Microsoft JhengHei UI Light" Foreground="#FFCECFD1" FontSize="20" Margin="60,0,0,0"/>
+            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Height="{Binding ActualHeight, ElementName=grid, Mode=OneWay}" Width="{Binding ActualHeight, Mode=OneWay, RelativeSource={RelativeSource Self}}" Background="{x:Null}" Command="{Binding OnMinimizeBtnClicked}">
+                    <!--<material:PackIcon Kind="WindowMinimize" Foreground="White">
+                        <material:PackIcon.LayoutTransform>
+                            <ScaleTransform ScaleX="2.8" ScaleY="2.8"/>
+                        </material:PackIcon.LayoutTransform>
+                    </material:PackIcon>-->
+                </Button>
+                <Button  Height="{Binding ActualHeight, ElementName=grid, Mode=OneWay}" Width="{Binding ActualHeight, Mode=OneWay, RelativeSource={RelativeSource Self}}" Background="{x:Null}" BorderBrush="{x:Null}" Command="{Binding OnCloseBtnClicked}">
+                    <!--<material:PackIcon Kind="Close" Foreground="White">
+                        <material:PackIcon.LayoutTransform>
+                            <ScaleTransform ScaleX="2.8" ScaleY="2.8"/>
+                        </material:PackIcon.LayoutTransform>
+                    </material:PackIcon>-->
+                    <!--<material:PackIcon  Kind="CloseThick" Foreground="White" RenderOptions.BitmapScalingMode="HighQuality" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+                    <material:PackIcon.LayoutTransform>
+                        <ScaleTransform ScaleX="5" ScaleY="5"/>
+                    </material:PackIcon.LayoutTransform>
+                </material:PackIcon>-->
+                </Button>
+            </StackPanel>
+
+            
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0" Background="#FF353942" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.Background>
+                    <SolidColorBrush Color="#FF1DCA1D" Opacity="0.5"/>
+                </Grid.Background>
+                <Label  HorizontalAlignment="Center" VerticalAlignment="Center" Content="{Binding DateTimeNow}" RenderOptions.EdgeMode="Aliased" Foreground="White"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <ToggleButton Grid.Row="0" Style="{DynamicResource ToggleButtonMain}" Content="CONNECT">
+                    <ToggleButton.Background>
+                        <ImageBrush ImageSource="/ALT.BoltHeight.UI;component/Resources/icon_con.png" Stretch="None">
+                            <ImageBrush.RelativeTransform>
+                                <TransformGroup>
+                                    <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                    <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                    <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </ImageBrush.RelativeTransform>
+                        </ImageBrush>
+                    </ToggleButton.Background>
+                </ToggleButton>
+                <RadioButton Command="{Binding CmdLoadCameraView}" Style="{DynamicResource RadioButtonMain}" Content="CAMERA" Grid.Row="1" GroupName="MainMenu">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="..\Resources\icon_ca.png" Stretch="None"/>
+                    </RadioButton.Background>
+                </RadioButton>
+                <RadioButton Content="MODEL" FontSize="70" Grid.Row="2" Command="{Binding CmdLoadModelView}" Style="{DynamicResource RadioButtonMain}" GroupName="MainMenu">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="..\Resources\icon_mo.png" Stretch="None"/>
+                    </RadioButton.Background>
+                </RadioButton>
+                <RadioButton Content="SETTING" FontSize="50" Grid.Row="3" Command="{Binding CmdLoadConfigView}" Style="{DynamicResource RadioButtonMain}" GroupName="MainMenu">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="..\Resources\icon_set.png" Stretch="None"/>
+                    </RadioButton.Background>
+                </RadioButton>
+                <RadioButton Content="STORAGE FOLDER" FontSize="50" Grid.Row="4" Command="{Binding CmdLoadModelView}" Style="{DynamicResource RadioButtonMain}" GroupName="MainMenu">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="..\Resources\icon_fo.png" Stretch="None"/>
+                    </RadioButton.Background>
+                </RadioButton>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1">
+
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <ContentControl Grid.Column="2" Content="{Binding UCMainView}" Grid.Row="1" Margin="0.2,50,0,0.2" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        </Grid>
+    </Grid>
+    <!--<Grid Width="1920" Height="1040">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="160"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="77"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="273"/>
+            <ColumnDefinition Width="474*"/>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="60"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1" Grid.Row="1" Background="#FF353942" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,1422.2,0.2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="Menu" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Row="1" Margin="20,0,0,0" FontSize="14"/>
+            <ToggleButton Grid.Row="2" Style="{DynamicResource ToggleButtonMain}" Content="CONNECT">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="icon_con.png" Stretch="None">
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <RadioButton Command="{Binding CmdLoadCameraView}" Style="{DynamicResource RadioButtonMain}" Content="CAMERA" Grid.Row="3" GroupName="MainMenu">
+                <RadioButton.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/icon_ca.png" Stretch="None"/>
+                </RadioButton.Background>
+            </RadioButton>
+            <RadioButton Content="MODEL" FontSize="50" Grid.Row="4" Command="{Binding CmdLoadModelView}" Style="{DynamicResource RadioButtonMain}" GroupName="MainMenu">
+                <RadioButton.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/icon_mo.png" Stretch="None"/>
+                </RadioButton.Background>
+            </RadioButton>
+            <RadioButton Content="SETTING" FontSize="50" Grid.Row="5" Command="{Binding CmdLoadConfigView}" Style="{DynamicResource RadioButtonMain}" GroupName="MainMenu">
+                <RadioButton.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/icon_set.png" Stretch="None"/>
+                </RadioButton.Background>
+            </RadioButton>
+            <RadioButton Content="STORAGE FOLDER" FontSize="50" Grid.Row="6" Command="{Binding CmdLoadModelView}" Style="{DynamicResource RadioButtonMain}" GroupName="MainMenu">
+                <RadioButton.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/icon_fo.png" Stretch="None"/>
+                </RadioButton.Background>
+            </RadioButton>
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="273" Height="50" Background="#FF1F8740">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="{Binding DateTimeNow}">
+
+                </Label>
+            </Grid>
+
+        </Grid>
+        <ContentControl Grid.Column="2" Content="{Binding UCMainView}" Grid.Row="1" Margin="0.2,50,0,0.2" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Canvas x:Name="CanvasLeft"  HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="0" Width="60" Height="803" Grid.Row="1" Grid.RowSpan="2">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/left.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="CanvasRight" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="4" Grid.Row="1" Width="60" Height="803" Grid.RowSpan="2">
+            <Canvas.Background>
+                <ImageBrush ImageSource="right.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="CanvasTop" Grid.ColumnSpan="5" HorizontalAlignment="Left" Height="160" VerticalAlignment="Top" Width="1920">
+            <Canvas.Background>
+                <ImageBrush ImageSource="top.png" Stretch="None"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="CanvasBottom" Grid.ColumnSpan="5" HorizontalAlignment="Left" Height="77" VerticalAlignment="Top" Width="1920" Grid.Row="2" Margin="0,752.6,0,0" Grid.RowSpan="2">
+            <Canvas.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/bottom.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Label Content="{Binding MenuCategory, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="2" Grid.Row="1" Margin="50.2,0,0,5.4"/>
+    </Grid>-->
+</Window>

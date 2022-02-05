@@ -1,0 +1,58 @@
+﻿<UserControl x:Name="userControl" x:Class="ALT.DisplayWPF.UCMain"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ALT.DisplayWPF"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+             xmlns:Custom="http://www.galasoft.ch/mvvmlight"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600" >
+    <UserControl.Resources>
+        <local:VMMain x:Key="Locator"/>
+    </UserControl.Resources>
+    <ScrollViewer x:Name="scrollViewer"  HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" DataContext="{Binding Mode=OneWay, Source={StaticResource Locator}}">
+        <ScrollViewer.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Fit Image" Command="{Binding CmdFitImage}" />
+            </ContextMenu>    
+        </ScrollViewer.ContextMenu>
+        <i:Interaction.Triggers>
+            <i:EventTrigger EventName="PreviewMouseWheel">
+                <ei:CallMethodAction TargetObject="{Binding}" MethodName="OnPreviewMouseWheel"/>
+            </i:EventTrigger>
+            <i:EventTrigger EventName="MouseMove">
+                <Custom:EventToCommand Command="{Binding CmdMouseMove}" PassEventArgsToCommand="True"/>
+            </i:EventTrigger>
+            <i:EventTrigger EventName="PreviewMouseLeftButtonUp">
+                <Custom:EventToCommand Command="{Binding CmdMouseLeftButtonUp}" PassEventArgsToCommand="True"/>
+            </i:EventTrigger>
+            <i:EventTrigger EventName="PreviewMouseLeftButtonDown">
+                <Custom:EventToCommand Command="{Binding CmdMouseLeftButtonDown}" PassEventArgsToCommand="True"/>
+            </i:EventTrigger>
+            <i:EventTrigger EventName="ScrollChanged">
+                <Custom:EventToCommand  Command="{Binding CmdScrollChanged}" PassEventArgsToCommand="True"/>
+            </i:EventTrigger>
+        </i:Interaction.Triggers>
+        <Grid x:Name="ImageGrid" xml:space="preserve"  Background="#FF7C7C7C" Width="{Binding ViewportWidth, ElementName=scrollViewer, Mode=OneWay}" Height="{Binding ViewportHeight, ElementName=scrollViewer, Mode=OneWay}">
+            
+            <Image x:Name="image" Source="{Binding ImageFilePath, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:UCMain}}}" RenderOptions.BitmapScalingMode="NearestNeighbor" Stretch="Uniform" SnapsToDevicePixels="True">
+                <Image.RenderTransform>
+                    <MatrixTransform/>
+                </Image.RenderTransform>
+                <i:Interaction.Triggers>
+                    
+                    <i:EventTrigger >
+                        <Custom:EventToCommand PassEventArgsToCommand="True" Command="{Binding CmdImageChanged}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Image>
+        </Grid>
+    </ScrollViewer>
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <Custom:EventToCommand Command="{Binding CmdInitial, Source={StaticResource Locator}}" CommandParameter="{Binding ElementName=scrollViewer, Mode=OneWay}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+</UserControl>

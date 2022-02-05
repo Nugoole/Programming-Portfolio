@@ -1,0 +1,18 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ALT.DS.UC.Dictionaries"
+    xmlns:v="clr-namespace:ALT.DS.UC.View">
+
+
+
+    <DataTemplate x:Key="dtCameraView">
+        <v:UCCameraView />
+    </DataTemplate>
+
+    <DataTemplate x:Key="dtToolSetView">
+        <v:UCToolSetView />
+    </DataTemplate>
+
+
+</ResourceDictionary>

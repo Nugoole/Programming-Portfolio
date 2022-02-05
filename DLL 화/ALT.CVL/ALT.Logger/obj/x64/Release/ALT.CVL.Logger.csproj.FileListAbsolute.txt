@@ -1,0 +1,9 @@
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.Logger\bin\x64\Release\log4net.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.Logger\bin\x64\Release\ALT.CVL.Logger.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.Logger\bin\x64\Release\ALT.CVL.Logger.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.Logger\bin\x64\Release\log4net.xml
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.Logger\obj\x64\Release\ALT.CVL.Logger.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.Logger\obj\x64\Release\ALT.CVL.Logger.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.Logger\obj\x64\Release\ALT.CVL.Logger.csproj.CopyComplete
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.Logger\obj\x64\Release\ALT.CVL.Logger.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.Logger\obj\x64\Release\ALT.CVL.Logger.pdb

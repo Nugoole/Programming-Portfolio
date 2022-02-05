@@ -1,0 +1,24 @@
+<Application
+    x:Class="Test.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dc="clr-namespace:ALT.DS.UC.ViewModel;assembly=ALT.DS.UC"
+    xmlns:local="clr-namespace:Test"
+    d1p1:Ignorable="d"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ALT.DS.UC;component/DSButtonStyle.xaml" />
+                <ResourceDictionary Source="/ALT.DS.UC;component/DSToggleButtonStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <vm:ViewModelLocator
+                xmlns:vm="clr-namespace:Test.ViewModel"
+                x:Key="Locator"
+                d:IsDataSource="True" />
+            <!--<dc:DSCameraViewmodelLocator x:Key="DSLocator" />-->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

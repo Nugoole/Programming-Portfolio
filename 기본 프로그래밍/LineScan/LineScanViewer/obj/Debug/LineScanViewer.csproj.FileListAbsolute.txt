@@ -1,0 +1,96 @@
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\LineScanViewer.exe.config
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\LineScanViewer.exe
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\LineScanViewer.pdb
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\ALT.DisplayWPF.dll
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\CommonServiceLocator.dll
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\ALT.DisplayWPF.pdb
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\Dictionaries\DictionaryButtonStyle.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\Dictionaries\DictionaryTextBox.g.cs
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\MainWindow.g.cs
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCCameraView.g.cs
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCConfigView.g.cs
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCImageStorage.g.cs
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCDCFView.g.cs
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCSubModelView.g.cs
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\App.g.cs
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer_MarkupCompile.cache
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer_MarkupCompile.lref
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\App.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\Dictionaries\DictionaryItem.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\Dictionaries\DictionaryTextBox.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\MainWindow.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCCameraView.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCConfigView.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCImageStorage.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCDCFView.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\View\UCSubModelView.baml
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer.g.resources
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer.Properties.Resources.resources
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csproj.GenerateResource.cache
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csproj.CoreCompileInputs.cache
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csproj.Fody.CopyLocal.cache
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csproj.CopyComplete
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer.exe
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer.pdb
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csprojAssemblyReference.cache
+C:\Users\기술영업PC\Desktop\LineScan\LineScanViewer\bin\Debug\Matrox.MatroxImagingLibrary.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\LineScanViewer.exe.config
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\LineScanViewer.exe
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\LineScanViewer.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\ALT.DisplayWPF.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\CommonServiceLocator.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\Matrox.MatroxImagingLibrary.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\Dictionaries\DictionaryButtonStyle.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\Dictionaries\DictionaryTextBox.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\MainWindow.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCCameraView.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCConfigView.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCImageStorage.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCDCFView.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCSubModelView.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\App.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer_MarkupCompile.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer_MarkupCompile.lref
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\App.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\Dictionaries\DictionaryItem.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\Dictionaries\DictionaryTextBox.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\MainWindow.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCCameraView.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCConfigView.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCImageStorage.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCDCFView.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\View\UCSubModelView.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer.g.resources
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer.Properties.Resources.resources
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csproj.Fody.CopyLocal.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csproj.CopyComplete
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer.exe
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\obj\Debug\LineScanViewer.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\LineScan\LineScanViewer\bin\Debug\Matrox.MatroxImagingLibrary.xml

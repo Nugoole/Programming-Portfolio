@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+    x:Class="ALT.BoltHeight.UI.Dictionaries.DictionaryMaterialDesign"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ALT.BoltHeight.UI.Dictionaries">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style
+        x:Key="MaterialFloatTextBox"
+        BasedOn="{StaticResource MaterialDesignTextBox}"
+        TargetType="{x:Type TextBox}">
+        <EventSetter Event="PreviewTextInput" Handler="CheckFloat" />
+    </Style>
+    <Style
+        x:Key="MaterialIntegerTextBox"
+        BasedOn="{StaticResource MaterialDesignTextBox}"
+        TargetType="{x:Type TextBox}">
+        <EventSetter Event="PreviewTextInput" Handler="CheckInteger" />
+    </Style>
+
+
+
+</ResourceDictionary>

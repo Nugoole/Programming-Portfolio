@@ -1,0 +1,6 @@
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\bin\x64\Debug\ALT.Serialize.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\bin\x64\Debug\ALT.Serialize.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\obj\x64\Debug\ALT.Serializer.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\obj\x64\Debug\ALT.Serializer.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\obj\x64\Debug\ALT.Serialize.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\obj\x64\Debug\ALT.Serialize.pdb

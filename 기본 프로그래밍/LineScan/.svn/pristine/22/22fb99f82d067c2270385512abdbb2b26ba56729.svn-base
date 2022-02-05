@@ -1,0 +1,80 @@
+using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
+using LineScanViewer.Interface;
+using LineScanViewer.Messenger;
+using LineScanViewer.View;
+using System;
+using System.ComponentModel;
+using System.Windows.Controls;
+using System.Windows.Input;
+
+namespace LineScanViewer.ViewModel
+{
+    /// <summary>
+    /// This class contains properties that the main View can data bind to.
+    /// <para>
+    /// Use the <strong>mvvminpc</strong> snippet to add bindable properties to this ViewModel.
+    /// </para>
+    /// <para>
+    /// You can also use Blend to data bind with the tool's support.
+    /// </para>
+    /// <para>
+    /// See http://www.galasoft.ch/mvvm
+    /// </para>
+    /// </summary>
+    public class VMMain : ViewModelBase, IVMMain
+    {
+
+        private UserControl uCMainView;
+
+        private readonly UCCameraView cameraView;
+        private readonly UCConfigView configView;
+        private readonly UCModelView modelView;
+        private string menuCategory;
+
+        public UserControl UCMainView { get => uCMainView; set => Set(ref uCMainView, value); }
+
+        public string MenuCategory { get => menuCategory; set => Set(ref menuCategory, value); }
+
+        public ICommand CmdLoadCameraView { get; set; }
+
+        public ICommand CmdLoadModelView { get; set; }
+
+        public ICommand CmdLoadConfigView { get; set; }
+
+        public ICommand CmdOnClosing { get; set; }
+
+
+        public VMMain()
+        {
+            CmdLoadCameraView = new RelayCommand(LoadCameraView);
+            CmdLoadConfigView = new RelayCommand(LoadConfigView);
+            CmdLoadModelView = new RelayCommand(LoadModelView);
+            CmdOnClosing = new RelayCommand<CancelEventArgs>(OnClosing);
+            cameraView = new UCCameraView();
+            configView = new UCConfigView();
+            modelView = new UCModelView();
+            MenuCategory = "Category";
+        }
+
+        private void LoadCameraView() => ChangeMenuItem(cameraView, "Camera");
+
+        private void LoadModelView() => ChangeMenuItem(modelView, "Model");
+
+        private void LoadConfigView() => ChangeMenuItem(configView, "Config");
+
+        private void ChangeMenuItem(UserControl control, string menuName)
+        {
+            UCMainView = control;
+            MenuCategory = $"Menu > {menuName}";
+        }
+
+        private void OnClosing(CancelEventArgs e)
+        {
+            var messenger = new MainFormClosingMessenger();
+
+            GalaSoft.MvvmLight.Messaging.Messenger.Default.Send(messenger);
+        }
+
+    }
+}

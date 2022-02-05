@@ -1,0 +1,299 @@
+﻿<UserControl
+    x:Class="ALT.CVL.Controls.CamViewerWPF"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Custom="http://www.galasoft.ch/mvvmlight"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:dict="clr-namespace:ALT.CVL.Controls.Dictionary"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    xmlns:local="clr-namespace:ALT.CVL.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="DictionaryUC.xaml" />
+                <ResourceDictionary Source="DictionaryButton.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <dict:ParameterTemplateSelector x:Key="paramTemplateSelector" />
+            <dict:ReverseBooleanConverter x:Key="ReverseBooleanConverter" />
+            <local:MultiBooleanAndConverter x:Key="BooleanAndConverter" />
+            <Style x:Key="GridSplitterPreviewStyle">
+                <Setter Property="Control.Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Rectangle Fill="#80000000" />
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="gridSplitterStyle" TargetType="{x:Type GridSplitter}">
+                <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" />
+                <Setter Property="PreviewStyle" Value="{StaticResource GridSplitterPreviewStyle}" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type GridSplitter}">
+                            <Border
+                                Background="Transparent"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                                <Grid>
+                                    <Line
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Stroke="LimeGreen"
+                                        StrokeThickness="1.5"
+                                        X1="1"
+                                        X2="1"
+                                        Y1="0"
+                                        Y2="30" />
+                                    <Line
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+                                        Stroke="LimeGreen"
+                                        StrokeThickness="1.5"
+                                        X1="1"
+                                        X2="1"
+                                        Y1="0"
+                                        Y2="25" />
+                                    <Line
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="Center"
+                                        Stroke="LimeGreen"
+                                        StrokeThickness="1.5"
+                                        X1="1"
+                                        X2="1"
+                                        Y1="0"
+                                        Y2="25" />
+                                </Grid>
+
+
+
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <local:VMCamera />
+    </UserControl.DataContext>
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Image Source="pack://application:,,,/ALT.CVL.Controls;Component/Resource/초록색.png" />
+            <ComboBox
+                Grid.Column="1"
+                Margin="3,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                Background="AliceBlue"
+                DisplayMemberPath="CamInfo.CamName"
+                FontSize="16"
+                ItemsSource="{Binding AvailableCameras}"
+                SelectedValue="{Binding CamNameToConnect}" />
+        </Grid>
+        <StackPanel
+            Grid.Column="2"
+            Margin="0,0,150,0"
+            Orientation="Horizontal">
+            <Button
+                Width="50"
+                Background="LimeGreen"
+                Command="{Binding GrabOnce}"
+                Content="Grab"
+                IsEnabled="{Binding IsLive, Converter={StaticResource ReverseBooleanConverter}}"
+                Style="{StaticResource buttonStyle}" />
+            <Canvas Width="10" />
+            <ToggleButton
+                Width="50"
+                Margin="0,1,0,-1"
+                Content="Live"
+                IsChecked="false"
+                Style="{DynamicResource toggleButtonLive}" />
+            <Canvas Width="10" />
+            <Button
+                Width="100"
+                Background="White"
+                Command="{Binding WhiteBalance}"
+                Content="WhiteBalance"
+                Style="{StaticResource buttonStyle}">
+                <Button.IsEnabled>
+                    <MultiBinding Converter="{StaticResource BooleanAndConverter}">
+                        <Binding Converter="{StaticResource ReverseBooleanConverter}" Path="IsMono" />
+                        <Binding Converter="{StaticResource ReverseBooleanConverter}" Path="IsLive" />
+                    </MultiBinding>
+                </Button.IsEnabled>
+            </Button>
+
+        </StackPanel>
+
+        <GridSplitter
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="1"
+            Width="10"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Stretch"
+            Background="Gray"
+            Foreground="Black"
+            ShowsPreview="True"
+            Style="{DynamicResource gridSplitterStyle}" />
+
+        <TextBlock
+            Grid.Column="2"
+            Margin="0,0,20,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            Foreground="White"
+            Text="{Binding FPS, NotifyOnSourceUpdated=True, StringFormat=FPS : \{0:F3\}}"
+            TextAlignment="Left" />
+
+
+        <local:DisplayWPF
+            x:Name="uCMain"
+            Grid.Row="1"
+            Grid.Column="2"
+            ImageFilePath="{Binding Image}" />
+
+
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="150" />
+            </Grid.RowDefinitions>
+            <ListBox
+                x:Name="listBox"
+                Margin="2,5"
+                HorizontalContentAlignment="Stretch"
+                ItemTemplateSelector="{StaticResource paramTemplateSelector}"
+                ItemsSource="{Binding Parameters}">
+
+                <ListBox.Background>
+                    <SolidColorBrush Color="AliceBlue" />
+                </ListBox.Background>
+
+
+            </ListBox>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="3*" />
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="20"
+                        Foreground="White"
+                        Text="X" />
+                    <TextBlock
+                        Grid.Column="1"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Foreground="White"
+                        Text="{Binding CursorPosition.X, ElementName=uCMain, StringFormat=\{0:F0\}}" />
+                    <TextBlock
+                        Grid.Column="2"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="20"
+                        Foreground="White"
+                        Text="Y" />
+                    <TextBlock
+                        Grid.Column="3"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Foreground="White"
+                        Text="{Binding CursorPosition.Y, ElementName=uCMain, StringFormat=\{0:F0\}}" />
+                </Grid>
+
+                <Grid Grid.Row="1" Grid.RowSpan="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="20"
+                        Foreground="Red"
+                        Text="Red" />
+                    <TextBlock
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="20"
+                        Foreground="Lime"
+                        Text="Green" />
+                    <TextBlock
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="20"
+                        Foreground="#FF2D4BD3"><Run Foreground="#FF2C52FF" Text="Blue" /></TextBlock>
+                    <TextBlock
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Foreground="White"
+                        Text="{Binding ColorFromCursor.R, ElementName=uCMain}" />
+                    <TextBlock
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Foreground="White"
+                        Text="{Binding ColorFromCursor.G, ElementName=uCMain}" />
+                    <TextBlock
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Foreground="White"
+                        Text="{Binding ColorFromCursor.B, ElementName=uCMain}" />
+                </Grid>
+
+            </Grid>
+        </Grid>
+
+
+
+    </Grid>
+</UserControl>

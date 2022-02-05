@@ -1,0 +1,15 @@
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\bin\Debug\Cog3DViewer.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\bin\Debug\Cog3DViewer.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Cog3DViewer.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Cog3DViewer_MarkupCompile.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Cog3DViewer_MarkupCompile.lref
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Cog3DViewer.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Cog3DViewer.g.resources
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Cog3DViewer.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Cog3DViewer.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Cog3DViewer.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Cog3DViewer.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\CrossSectionView.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\CrossSectionView.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\Cog3DViewer\obj\Debug\Viewer.Properties.Resources.resources

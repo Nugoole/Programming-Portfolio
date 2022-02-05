@@ -1,0 +1,18 @@
+\\192.168.1.147\Users\user\Desktop\Remote\StageTester\Test.exe.config
+\\192.168.1.147\Users\user\Desktop\Remote\StageTester\Test.exe
+\\192.168.1.147\Users\user\Desktop\Remote\StageTester\Test.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\MainWindow.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\App.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\GeneratedInternalTypeHelper.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test_MarkupCompile.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test_MarkupCompile.lref
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\App.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\MainWindow.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test.g.resources
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test.Properties.Resources.resources
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test.csproj.CopyComplete
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test.exe
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\ALT.BoltHeight.UI\Test\obj\Remote\Test.pdb

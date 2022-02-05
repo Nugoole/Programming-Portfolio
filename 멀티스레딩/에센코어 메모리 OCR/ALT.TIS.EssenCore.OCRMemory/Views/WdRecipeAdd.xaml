@@ -1,0 +1,30 @@
+﻿<Window x:Class="ALT.TIS.EssenCore.OCRMemory.Views.WdRecipeAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ALT.TIS.EssenCore.OCRMemory.Views"
+        mc:Ignorable="d"
+        Title="WdRecipeAdd" Height="200" Width="300" WindowStyle="None" Background="#FF646464" WindowStartupLocation="CenterScreen" DataContext="{Binding AccessWindow, Mode=OneWay, Source={StaticResource Locator}}" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+    <Grid d:DataContext="{Binding Source={StaticResource Locator}}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Label Margin="10,5,10,10" Content="모델명" Foreground="#FFE4E4E4" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBox x:Name="AddViewTextBox" Margin="10,10,10,10" Text="Test" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Margin="10,20,10,20" Content="추가" FontSize="20" Command="{Binding FileIO.CmdAddRecipe, Source={StaticResource Locator}}" CommandParameter="{Binding Text, ElementName=AddViewTextBox}" Style="{DynamicResource ButtonStyleMainMenu}"/>
+            <Button Grid.Column="1" Margin="10,20,10,20" Content="취소" FontSize="20" Command="{Binding FileIO.CmdAddRecipeCancel, Source={StaticResource Locator}}" Style="{DynamicResource ButtonStyleMainMenu}"/>
+        </Grid>
+    </Grid>
+</Window>

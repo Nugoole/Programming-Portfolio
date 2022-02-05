@@ -1,0 +1,50 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:lvch="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+         xmlns:ResultViewer="clr-namespace:ALT.ResultViewer;assembly=ALT.ResultViewer"
+         x:Class="WpfApp1.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Transparent" DataContext="{Binding Main, Source={StaticResource Locator}}">
+    <Grid Background="Transparent">
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <lvch:CartesianChart Zoom="X" Pan="Xy" ZoomingSpeed="2" AnimationsSpeed="{Binding AnimationTime}">
+            <lvch:CartesianChart.AxisX>
+                <lvch:DateAxis Period="{Binding Period, Mode=TwoWay}" InitialDateTime="{Binding InitDateTime}" MinValue="0" MaxValue="100" >
+                    <lvch:DateAxis.Separator>
+                        <lvch:Separator  Stroke="AliceBlue" StrokeThickness="1"/>
+                    </lvch:DateAxis.Separator>
+                </lvch:DateAxis>
+
+            </lvch:CartesianChart.AxisX>
+            <lvch:CartesianChart.Series>
+                <lvch:LineSeries Values="{Binding Points}"  LineSmoothness="0.7"/>
+            </lvch:CartesianChart.Series>
+        </lvch:CartesianChart>
+        <Button Grid.Column="1" Command="{Binding Add}" />-->
+
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <ResultViewer:ResultViewer CameraName="Camera1" OKCount="{Binding OK}" NGCount="{Binding NG}"/>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Content="OK" Command="{Binding AddOK, Mode=TwoWay}"/>
+            <Button Grid.Row="1" Content="NG" Command="{Binding AddNG, Mode=TwoWay}"/>
+            <Button Grid.Row="2" Content="??"/>
+        </Grid>
+    </Grid>
+</Window>

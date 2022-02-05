@@ -1,0 +1,13 @@
+﻿<ResourceDictionary
+    x:Class="LineScanViewer.Dictionaries.DictionaryTextBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:LineScanViewer.Dictionaries">
+
+
+    <Style x:Key="IntegerTextBox" TargetType="{x:Type TextBox}">
+        <EventSetter Event="PreviewTextInput" Handler="CheckInteger" />
+    </Style>
+
+
+</ResourceDictionary>

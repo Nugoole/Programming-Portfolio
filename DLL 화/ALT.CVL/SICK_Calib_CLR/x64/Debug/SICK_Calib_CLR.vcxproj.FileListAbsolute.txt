@@ -1,0 +1,2 @@
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\SICK_Calib_CLR\x64\Debug\SICK_Calib_CLR.vcxproj.CopyComplete
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\SICK_Calib_CLR\x64\Debug\SICK_Calib_CLR.vcxproj.AssemblyReference.cache

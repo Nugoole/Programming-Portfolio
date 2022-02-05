@@ -1,0 +1,10 @@
+﻿namespace LineScanViewer.Messenger
+{
+
+    public class LoadDCFMessenger
+    {
+
+        public string DCFFilePath { get; set; }
+
+    }
+}

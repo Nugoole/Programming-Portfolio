@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TISResultModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TIS_Result">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PN" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Speed" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Capacity" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Barcode" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="TISResultEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TIS_Result" EntityType="Self.TIS_Result" />
+  </EntityContainer>
+</Schema>

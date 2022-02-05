@@ -1,0 +1,13 @@
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\bin\x64\Debug\TIS_OCRVisionTool.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\bin\x64\Debug\TIS_OCRVisionTool.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\bin\x64\Debug\Cognex.VisionPro.ID.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\bin\x64\Debug\Cognex.VisionPro.ID.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\obj\x64\Debug\TIS_OCRVisionTool.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\obj\x64\Debug\TIS_OCRVisionTool.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\obj\x64\Debug\TIS_OCRVisionTool.csproj.CopyComplete
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\obj\x64\Debug\TIS_OCRVisionTool.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\obj\x64\Debug\TIS_OCRVisionTool.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\bin\x64\Debug\ALT.Serialize.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\bin\x64\Debug\ALT.Serialize.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\VisionTool\bin\x64\Debug\Newtonsoft.Json.xml

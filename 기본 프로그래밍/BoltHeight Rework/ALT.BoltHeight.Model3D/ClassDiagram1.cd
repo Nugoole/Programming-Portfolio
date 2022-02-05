@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ALT.DSCamera._3DParamContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQcQAGAAAAFAABIBFAACAQ0IBAAJCBZwEQBAMAQHE=</HashCode>
+      <FileName>_3DParamContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ALT.DSCamera.MdConfig" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAwQAEACEAAA=</HashCode>
+      <FileName>MdConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALT.DSCamera.RegionParams" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAUAAAAGAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <FileName>RegionParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALT.DSCamera.Camera3D.Md3DFrameGrabber" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sgQwoVCDcA0ajZBBCTNNQIsQmIDjARCtZefxpLZQcHk=</HashCode>
+      <FileName>Camera3D\Md3DFrameGrabber_Common.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.CrossSectionOPParam" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Tool\CrossSectionOPParam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.CrossSectionParams" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAIAAAQIAAABgACAAIAAABAAAAAAIAA=</HashCode>
+      <FileName>Tool\CrossSectionParams.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.CrossSectionResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tool\CrossSectionResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.CrossSectionSaveLoadParam" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Tool\CrossSectionSaveLoadParam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.HeightCalcParams" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAA=</HashCode>
+      <FileName>Tool\HeightCalcParams.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.HeightCalcResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tool\HeightCalcResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.MdCrossSectionTool" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAIIoAAAAQgAAgQAgAASwAAMFIAAQF4ABBEAEIAAo=</HashCode>
+      <FileName>Tool\MdCrossSectionTool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.MdHeightCalcTool" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIgAgAEAAAEBRAABAAQACAFCAACBcAABACAAAAI=</HashCode>
+      <FileName>Tool\MdHeightCalcTool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.PatMaxLoadedArgs" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAQ=</HashCode>
+      <FileName>Tool\MdPatMax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.MdPatMax" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBDgEAQAgCACABAAEAAQAAABAABomAAiUEAgQIABIEY=</HashCode>
+      <FileName>Tool\MdPatMax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.MdTiltCalcTool" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEIAAAAAAAAAARAAAAAQACABCACAB4AAAAAQAAAI=</HashCode>
+      <FileName>Tool\MdTiltCalcTool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.MdToolBase" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAkAAAAAAAgAAAEAAAAAI=</HashCode>
+      <FileName>Tool\MdToolBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.PMToolParams" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tool\PMToolParams.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.TiltCalcParams" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABgAAAAgAAAAA=</HashCode>
+      <FileName>Tool\TiltCalcParams.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ALT.DSCamera.Tool.TiltCalcResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Tool\TiltCalcResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="ALT.DSCamera.Interface.I3DCamParams" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIQACAAAABAAAABFAAAAAAIAAABAAAQAQBAIAQEA=</HashCode>
+      <FileName>Interface\I3DCamParams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.I3DCrossSectionParams" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Interface\I3DCrossSectionParams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.I3DCrossSectionRegion" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\I3DCrossSectionRegion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.I3DCrossSectionResult" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\I3DCrossSectionResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.I3DHeightCalcRegion" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\I3DHeightCalcRegion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.I3DRegionParams" Collapsed="true">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\I3DRegionParams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.I3DTiltCalcRegion" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\I3DTiltCalcRegion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.I3DTool" Collapsed="true">
+    <Position X="13.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAEAAAAAI=</HashCode>
+      <FileName>Interface\I3DTool.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.IAppliable&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IAppliable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.IHeightCalcParams" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IHeightCalcParams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.IHeightCalcResult" Collapsed="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IHeightCalcResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.IPatMaxParams" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IPatMaxParams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.ITiltCalcParams" Collapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAA=</HashCode>
+      <FileName>Interface\ITiltCalcParams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.ITiltCalcResult" Collapsed="true">
+    <Position X="15" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Interface\ITiltCalcResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALT.DSCamera.Interface.ITrainable" Collapsed="true">
+    <Position X="9.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQAAAEAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAA=</HashCode>
+      <FileName>Interface\ITrainable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ALT.DSCamera.Camera3D.DSMAXTriggerSourceConstants" Collapsed="true">
+    <Position X="13.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAACAA=</HashCode>
+      <FileName>Camera3D\Md3DFrameGrabber_Common.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ALT.DSCamera.Camera3D.DSMAXSpeedModeConstants" Collapsed="true">
+    <Position X="11.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAIAAAAAEAAA=</HashCode>
+      <FileName>Camera3D\Md3DFrameGrabber_Common.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ALT.DSCamera.Camera3D.DSMAXMotionInputConstants" Collapsed="true">
+    <Position X="9.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Camera3D\Md3DFrameGrabber_Common.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ALT.DSCamera.Tool.OperatorType" Collapsed="true">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAgAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tool\MdCrossSectionTool.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

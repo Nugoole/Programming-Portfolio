@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineScanViewer", "LineScanViewer\LineScanViewer.csproj", "{1765F91C-7CF1-4C4C-A9A2-746A40D676C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALT.DisplayWPF", "..\DisplayWPF\ALT.DisplayWPF.csproj", "{9EF7AFAF-3497-48ED-95FF-EFC57ECCCD09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1765F91C-7CF1-4C4C-A9A2-746A40D676C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1765F91C-7CF1-4C4C-A9A2-746A40D676C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1765F91C-7CF1-4C4C-A9A2-746A40D676C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1765F91C-7CF1-4C4C-A9A2-746A40D676C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF7AFAF-3497-48ED-95FF-EFC57ECCCD09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF7AFAF-3497-48ED-95FF-EFC57ECCCD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF7AFAF-3497-48ED-95FF-EFC57ECCCD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF7AFAF-3497-48ED-95FF-EFC57ECCCD09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {716DC287-49CD-42A9-8C9E-C6BE711FE347}
+	EndGlobalSection
+EndGlobal

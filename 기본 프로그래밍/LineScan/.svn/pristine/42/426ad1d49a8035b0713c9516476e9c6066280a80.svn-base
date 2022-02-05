@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Controls;
+using System.Windows.Input;
+
+namespace LineScanViewer.Interface
+{
+    public interface IVMMain
+    {
+        UserControl UCMainView { get; set; }
+        ICommand CmdLoadCameraView { get; set; }
+        ICommand CmdLoadModelView { get; set; }
+        ICommand CmdLoadConfigView { get; set; }
+        ICommand CmdOnClosing { get; set; }
+        string MenuCategory { get; set; }
+    }
+}

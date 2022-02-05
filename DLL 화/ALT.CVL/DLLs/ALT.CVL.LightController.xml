@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ALT.CVL.LightController</name>
+    </assembly>
+    <members>
+        <member name="T:ALT.CVL.ConnectionInfo">
+            <summary>
+            컨트롤러의 연결 정보를 담고있는 클래스입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.ConnectionInfo.IsChangable">
+            <summary>
+            현재 프로퍼티들을 수정할 수 있는지 나타냅니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.ConnectionInfo.IP">
+            <summary>
+            조명 컨트롤러의 IP주소 입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.ConnectionInfo.SubnetMask">
+            <summary>
+            조명 컨트롤러의 서브넷 마스크 입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.ConnectionInfo.GateWay">
+            <summary>
+            조명 컨트롤러의 GateWay입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.ConnectionInfo.TCPPort">
+            <summary>
+            조명컨트롤러의 TCP 포트 번호 입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.ConnectionInfo.COMPort">
+            <summary>
+            조명컨트롤러의 Serial 포트 이름 입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.ConnectionInfo.BaudRate">
+            <summary>
+            조명컨트롤러의 Serial 통신의 보레이트 입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.ConnectionInfo.Model">
+            <summary>
+            조명컨트롤러의 모델 정보입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.ConnectionInfo.Protocol">
+            <summary>
+            조명컨트롤러의 연결 프로토콜 종류입니다.
+            </summary>
+        </member>
+        <member name="T:ALT.CVL.LightControllerConnector">
+            <summary>
+            조명컨트롤러를 연결하여 객체를 생성하는 클래스입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.LightControllerConnector.AvailableSerialPorts">
+            <summary>
+            현재 조명컨트롤러와 연결가능한 시리얼 포트들입니다.
+            </summary>
+        </member>
+        <member name="M:ALT.CVL.LightControllerConnector.Connect(ALT.CVL.Common.Enum.ControllerModel,ALT.CVL.Common.Enum.ConnectionProtocol,System.String,System.Int32,System.String,System.Int32,System.String)">
+            <summary>
+            조명컨트롤러에 연결하는 함수입니다.
+            </summary>
+            <param name="controllerModel">
+            연결하려하는 조명컨트롤러의 종류입니다.
+            </param>
+            <param name="protocol">
+            연결하려는 프로토콜의 종류입니다.
+            </param>
+            <param name="serialPortName">
+            RS232통신의 경우 연결할 포트이름입니다. <c>ALT.CVL.LightControllerConnector.AvailableSerialPorts</c>에서 가져옵니다.
+            </param>
+            <param name="baudRate">
+            RS232통신에 사용할 보드레이트입니다.
+            </param>
+            <param name="ip">
+            TCP/UDP에 사용될 IP주소입니다.
+            </param>
+            <param name="port">
+            TCP/UDP에 사용될 포트 번호입니다.
+            </param>
+            <param name="keyName">
+            Dictionary에 등록될 Key이름입니다.
+            </param>
+            <returns>
+            ILightController 객체를 반환합니다.
+            </returns>
+        </member>
+        <member name="T:ALT.CVL.LightControllerDictionary">
+            <summary>
+            연결된 조명컨트롤러에 대한 컨트롤러 사전입니다.
+            </summary>
+        </member>
+        <member name="P:ALT.CVL.LightControllerDictionary.Controllers">
+            <summary>
+            연결되어 있는 컨트롤러 리스트 입니다.
+            </summary>
+        </member>
+    </members>
+</doc>

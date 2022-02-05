@@ -1,0 +1,9 @@
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\JsonSaveLoader\bin\Release\JsonSaveLoader.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\JsonSaveLoader\bin\Release\JsonSaveLoader.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\JsonSaveLoader\bin\Release\Newtonsoft.Json.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\JsonSaveLoader\bin\Release\Newtonsoft.Json.xml
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\JsonSaveLoader\obj\Release\JsonSaveLoader.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\JsonSaveLoader\obj\Release\JsonSaveLoader.csproj.CopyComplete
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\JsonSaveLoader\obj\Release\JsonSaveLoader.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\JsonSaveLoader\obj\Release\JsonSaveLoader.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\JsonSaveLoader\obj\Release\JsonSaveLoader.csprojAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\bin\Debug\ALT.CVL.Core.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\bin\Debug\ALT.CVL.Core.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\Debug\ALT.CVL.Core.csproj.AssemblyReference.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\Debug\ALT.CVL.Core.WfCRDisplay.resources
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\Debug\ALT.CVL.Core.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\Debug\ALT.CVL.Core.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\Debug\ALT.CVL.Core.csproj.CopyComplete
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\Debug\ALT.CVL.Core.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\Debug\ALT.CVL.Core.pdb

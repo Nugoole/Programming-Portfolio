@@ -1,0 +1,48 @@
+﻿<UserControl x:Name="UCsubModel" x:Class="ALT.BoltHeight.Views.UCSubModelView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:material="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:ALT.BoltHeight.Views"
+             mc:Ignorable="d" DataContext="{Binding Source={StaticResource Locator}, Path=SubModel}" Width="260" Height="300">
+    <UserControl.Resources>
+        <Storyboard x:Key="OnMouseUp1"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="113"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="66"/>
+        </Grid.RowDefinitions>
+        <ToggleButton x:Name="BtnModel"  FontSize="20" Command="{Binding CmdLoad}" CommandParameter="{Binding Content, ElementName=BtnModel}" Style="{DynamicResource ToggleButtonSubModel}" Grid.Row="0">
+            <ToggleButton.Background>
+                <ImageBrush/>
+            </ToggleButton.Background>
+        </ToggleButton>
+
+        <Grid Grid.Row="1">
+            <Grid.Background>
+                <ImageBrush ImageSource="../Resources/TBline.png"/>
+            </Grid.Background>
+            <TextBox x:Name="TxtModelname"  FontSize="20" VerticalContentAlignment="Center" Margin="18,10,22,10" material:HintAssist.Hint="Model Name"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <ImageBrush ImageSource="../Resources/TBline.png"/>
+            </Grid.Background>
+            <Button Content="Change" Margin="159,14,15,14" Command="{Binding CmdBtnTextChange}" CommandParameter="{Binding Content, ElementName=BtnModel}" Grid.ColumnSpan="2"/>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.Background>
+                <ImageBrush ImageSource="../Resources/TBbt_eng.png"/>
+            </Grid.Background>
+            <Button x:Name="button" FontSize="20" Command="{Binding CmdSave}" CommandParameter="{Binding Content, ElementName=BtnModel}" Background="#00000000" Margin="89.069,13,89.069,21.681" Style="{DynamicResource ButtonStyleInvisible}"/>
+        </Grid>
+    </Grid>
+</UserControl>

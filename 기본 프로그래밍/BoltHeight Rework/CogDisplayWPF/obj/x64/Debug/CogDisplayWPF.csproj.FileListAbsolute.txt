@@ -1,0 +1,13 @@
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\bin\x64\Debug\CogDisplayWPF.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\bin\x64\Debug\CogDisplayWPF.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayForWPF.g.cs
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayWPF_MarkupCompile.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayWPF_MarkupCompile.lref
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayForWPF.baml
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayWPF.g.resources
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayWPF.Properties.Resources.resources
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayWPF.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayWPF.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayWPF.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayWPF.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\BoltHeight Rework\CogDisplayWPF\obj\x64\Debug\CogDisplayWPF.csproj.AssemblyReference.cache

@@ -1,0 +1,106 @@
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\ALT.CVL.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\ALT.CVL.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Controls.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Core.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Display.Controls.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\CommonServiceLocator.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Display.Controls.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.CorePlus.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Graphic.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ImageFile.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ImageProcessing.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Core.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.FGGigE.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ToolGroup.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Interop.Core.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\stdole.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Core.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Display.Controls.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Display.Controls.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.CorePlus.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Graphic.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ImageFile.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ImageProcessing.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Core.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.FGGigE.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ToolGroup.xml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.UCCrDisplay.resources
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.csproj.CopyComplete
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\ALT.CVL.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\ALT.CVL.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Controls.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Core.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Display.Controls.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\CommonServiceLocator.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Newtonsoft.Json.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\System.Windows.Interactivity.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Display.Controls.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.CorePlus.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Graphic.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ImageFile.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ImageProcessing.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Core.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.FGGigE.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ToolGroup.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Interop.Core.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\stdole.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Core.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.Display.Controls.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Newtonsoft.Json.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Display.Controls.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.CorePlus.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Graphic.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ImageFile.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ImageProcessing.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.Core.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.FGGigE.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro3D.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\bin\Debug\Cognex.VisionPro.ToolGroup.xml
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.csprojAssemblyReference.cache
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.UCCrDisplay.resources
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.csproj.GenerateResource.cache
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.csproj.CoreCompileInputs.cache
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.csproj.CopyComplete
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.CVL\obj\Debug\ALT.CVL.pdb

@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  SICK_Calib_CLR.cpp
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\SICK_Calib_CLR\SICK_Calib_CLR.cpp(52,24): warning C4244: '=': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  .NETFramework,Version=v4.6.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL 모듈이 발견되었습니다. MSIL에 증분 링크를 사용할 수 없습니다. 전체 링크를 수행하고 있습니다.
+  SICK_Calib_CLR.vcxproj -> C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\x64\배포\SICK_Calib_CLR.dll

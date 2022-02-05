@@ -1,0 +1,44 @@
+﻿<UserControl x:Name="UCsubModel" x:Class="LineScanViewer.View.UCSubModelView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LineScanViewer"
+             mc:Ignorable="d" DataContext="{Binding Source={StaticResource Locator}, Path=SubModel}" Width="260" Height="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="113"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="66"/>
+        </Grid.RowDefinitions>
+        <ToggleButton x:Name="BtnModel"  FontSize="20" Command="{Binding CmdLoad}" CommandParameter="{Binding Content, ElementName=BtnModel}" Style="{DynamicResource ToggleButtonSubModel}" Grid.Row="0">
+            <ToggleButton.Background>
+                <ImageBrush/>
+            </ToggleButton.Background>
+        </ToggleButton>
+
+        <Grid Grid.Row="1">
+            <Grid.Background>
+                <ImageBrush ImageSource="/LineScanViewer;component/Resources/TBline.png"/>
+            </Grid.Background>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <ImageBrush ImageSource="/LineScanViewer;component/Resources/TBline.png"/>
+            </Grid.Background>
+            <TextBox x:Name="TxtModelname" Margin="15,10,5,10" FontSize="20" VerticalContentAlignment="Center"/>
+            <Button Content="Change" Margin="5,10,15,10" Grid.Column="1" Command="{Binding CmdBtnTextChange}" CommandParameter="{Binding Content, ElementName=BtnModel}"/>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.Background>
+                <ImageBrush ImageSource="/LineScanViewer;component/Resources/TBbt_eng.png"/>
+            </Grid.Background>
+            <Button x:Name="button" FontSize="20" Command="{Binding CmdSave}" CommandParameter="{Binding Content, ElementName=BtnModel}" Background="#00000000" Margin="89.069,13,89.069,21.681" Style="{DynamicResource ButtonStyleInvisible}"/>
+        </Grid>
+    </Grid>
+</UserControl>

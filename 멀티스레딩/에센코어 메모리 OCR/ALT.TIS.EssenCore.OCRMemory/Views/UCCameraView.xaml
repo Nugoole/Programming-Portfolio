@@ -1,0 +1,291 @@
+﻿<UserControl x:Class="ALT.TIS.EssenCore.OCRMemory.Views.UCCameraView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:Internal="clr-namespace:Cognex.VisionPro.DSCameraSetup.Implementation.Internal;assembly=Cognex.VisionPro.Controls"
+             xmlns:tk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             xmlns:vm="clr-namespace:ALT.TIS.EssenCore.OCRMemory.ViewModels"
+             xmlns:local="clr-namespace:ALT.TIS.EssenCore.OCRMemory.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920" DataContext="{Binding Source={StaticResource Locator}}">
+    <UserControl.Resources>
+        <vm:NullCheckConverter x:Key="NullCheckConverter"/>
+        <vm:PMAlignResultConverter x:Key="pmResultConverter"/>
+        <Style x:Key="NumericUpDownStyle1" TargetType="{x:Type Internal:NumericUpDown}">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Internal:NumericUpDown}">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+                            <ContentPresenter ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ContentControl Content="{Binding Display.OCWfhDisplay[0]}" Margin="10"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="350"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Margin="10,0,0,10" Grid.Column="0" Foreground="White" BorderThickness="0.5" >
+                <GroupBox.Header>
+                    <TextBlock Foreground="White" Text="Pattern" FontSize="20"/>
+                </GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Margin="5" Grid.Row="0" Grid.Column="0" Content="Search Region"  Command="{Binding Tool.CmdPatternRegion}" Style="{DynamicResource ButtonStylemainBtn}" FontSize="13"/>
+                    <Button Margin="5" Grid.Row="1" Grid.Column="0" Content="Train Region" Command="{Binding Tool.CmdPatternTrainRegion}" Style="{DynamicResource ButtonStylemainBtn}" FontSize="15"/>
+                    <Button Margin="5" Grid.Row="2" Grid.Column="0" Content="Train" Command="{Binding Tool.CmdTrainPattern}" Style="{DynamicResource ButtonStylemainBtn}" FontSize="15"/>
+                    <Button Margin="3" Grid.Row="0" Grid.Column="1" Style="{DynamicResource ButtonStylemainBtn}" Content="Pattern Region" Command="{Binding Tool.CmdKLEVVSearchRegion}"/>
+                    <Button Margin="3" Grid.Row="1" Grid.Column="1" Style="{DynamicResource ButtonStylemainBtn}" Content="Train Region" Command="{Binding Tool.CmdKLEVVTrainRegion}"/>
+                    <Button Margin="3" Grid.Row="2" Grid.Column="1" Style="{DynamicResource ButtonStylemainBtn}" Content="Train Pattern" Command="{Binding Tool.CmdTrainKLEVVPattern}"/>
+                    <Button Margin="3" Grid.Row="0" Grid.Column="2" Style="{DynamicResource ButtonStylemainBtn}" Content="Direction Region" Command="{Binding Tool.CmdStickDirectionSearchRegion}"/>
+                    <Button Margin="3" Grid.Row="1" Grid.Column="2" Style="{DynamicResource ButtonStylemainBtn}" Content="Direction Train" Command="{Binding Tool.CmdStickDirectionTrainRegion}"/>
+                    <Button Margin="3" Grid.Row="2" Grid.Column="2" Style="{DynamicResource ButtonStylemainBtn}" Content="Train Direction" Command="{Binding Tool.CmdTrainStickDirection}"/>
+
+                    
+
+
+                    <!--<Button Margin="5" Grid.Row="1" Grid.Column="1" Content="Segment" Command="{Binding Tool.CmdSegmentOCR}" Style="{DynamicResource ButtonStylemainBtn}" FontSize="15"/>
+                    <Button Margin="5" Grid.Row="1" Grid.Column="2" Content="Train" Command="{Binding Tool.CmdCapacityTrain}" Style="{DynamicResource ButtonStylemainBtn}" FontSize="15"/>-->
+                </Grid>
+            </GroupBox>
+            <Grid Margin="10,0,10,10" Grid.Column="1">
+                <Grid.RowDefinitions>
+
+                    <RowDefinition/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox Height="30" Text="{Binding Tool.CapacityCharacters,Mode=TwoWay,BindsDirectlyToSource=True, UpdateSourceTrigger=PropertyChanged}" FontSize="20" Margin="10,0,0,0" IsEnabled="{Binding Tool.CurrentOCRType, Converter={StaticResource NullCheckConverter}}"/>
+                    <Button Margin="7" Grid.Row="3" Grid.Column="1" Content="Train" Style="{DynamicResource ButtonStylemainBtn}" Command="{Binding Tool.CmdTrainSegmentedOCR}" IsEnabled="{Binding Tool.CurrentOCRType, Converter={StaticResource NullCheckConverter}}"/>
+                </Grid>
+
+                <GroupBox  Grid.Row="0" Foreground="White" BorderThickness="0.5" >
+                    <GroupBox.Header>
+                        <TextBlock Foreground="White" Text="OCR &amp; Buttons" FontSize="20"/>
+                    </GroupBox.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Margin="3" Grid.Row="0" Grid.Column="0" Style="{DynamicResource ButtonStylemainBtn}" Content="P/N" Command="{Binding Tool.CmdPartNoRegion}"/>
+                        <Button Margin="3" Grid.Row="0" Grid.Column="1" Style="{DynamicResource ButtonStylemainBtn}" Content="Capacity" Command="{Binding Tool.CmdStickCapacityRegion}"/>
+                        <Button Margin="3" Grid.Row="0" Grid.Column="2" Style="{DynamicResource ButtonStylemainBtn}" Content="Speed" Command="{Binding Tool.CmdSpeedRegion}"/>
+                        <Button Margin="3" Grid.Row="0" Grid.Column="3" Content="OCR Region" Command="{Binding Tool.CmdCapacityRegion}" Style="{DynamicResource ButtonStylemainBtn}" FontSize="15"/>
+                        <Button Margin="3" Grid.Row="0" Grid.Column="4" Style="{DynamicResource ButtonStylemainBtn}" Content="Barcode" Command="{Binding Tool.CmdBarcodeRegion}"/>
+                        <Button Margin="3" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="2" Style="{DynamicResource ButtonStylemainBtn}" Content="Run!" Command="{Binding Tool.CmdRun}" Background="Yellow"/>
+                        
+                        <Button Margin="3" Grid.Row="2" Grid.Column="1" Style="{DynamicResource ButtonStylemainBtn}" Content="Segment" Command="{Binding Tool.CmdSegmentOCRChars}" IsEnabled="{Binding Tool.CurrentOCRType, Converter={StaticResource NullCheckConverter}}"/>
+                    </Grid>
+                </GroupBox>
+
+            </Grid>
+
+
+            <StackPanel Orientation="Horizontal" Visibility="Hidden">
+                <Button Content="SearchRegion" Tag="0" Template="{DynamicResource EditButtonControlTemplate}" Command="{Binding Tool.CmdKLEVVSearchRegion}"/>
+                <Button Content="P/N Region" Tag="1" Template="{DynamicResource EditButtonControlTemplate}" Command="{Binding Tool.CmdPartNoRegion}"/>
+                <Button Content="Capacity Region" Tag="2" Template="{DynamicResource EditButtonControlTemplate}" Command="{Binding Tool.CmdStickCapacityRegion}"/>
+                <Button Content="Speed Region" Tag="3" Template="{DynamicResource EditButtonControlTemplate}" Command="{Binding Tool.CmdSpeedRegion}"/>
+                <Button Content="BarcodeRegion" Tag="4" Template="{DynamicResource EditButtonControlTemplate}" Command="{Binding Tool.CmdBarcodeRegion}"/>
+                <Button Content="Segment" Tag="5" Template="{DynamicResource EditButtonControlTemplate}" Command="{Binding Tool.CmdSegmentMemOCRChars}"/>
+                <Button Content="StickDirectionRegion" Tag="6" Template="{DynamicResource EditButtonControlTemplate}" Command="{Binding Tool.CmdStickDirectionSearchRegion}"/>
+                <Button Content="StickDirectionTRegion" Tag="7" Template="{DynamicResource EditButtonControlTemplate}" Command="{Binding Tool.CmdStickDirectionTrainRegion}"/>
+                <Button Content="Region1" Tag="8" Template="{DynamicResource EditButtonControlTemplate}"/>
+                <Button Content="Region1" Tag="9" Template="{DynamicResource EditButtonControlTemplate}"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal" Visibility="Hidden">
+                <Button Content="TrainRegion" Tag="0" Template="{DynamicResource TrainButtonControlTemplate}" Command="{Binding Tool.CmdKLEVVTrainRegion}"/>
+                <Button Content="Train OCR" Tag="1" Template="{DynamicResource TrainButtonControlTemplate}" Command="{Binding Tool.CmdTrainSegmentedOCR}"/>
+                <Button Content="Train Pattern" Tag="2" Template="{DynamicResource TrainButtonControlTemplate}" Command="{Binding Tool.CmdTrainKLEVVPattern}"/>
+                <Button Content="Run" Tag="3" Template="{DynamicResource TrainButtonControlTemplate}" Command="{Binding Tool.CmdRun}"/>
+                <Button Content="Train StickDirection" Tag="4" Template="{DynamicResource TrainButtonControlTemplate}" Command="{Binding Tool.CmdTrainStickDirection}"/>
+                <Button Content="Train" Tag="5" Template="{DynamicResource TrainButtonControlTemplate}"/>
+                <Button Content="Train" Tag="6" Template="{DynamicResource TrainButtonControlTemplate}"/>
+                <Button Content="Train" Tag="7" Template="{DynamicResource TrainButtonControlTemplate}"/>
+                <Button Content="Train" Tag="8" Template="{DynamicResource TrainButtonControlTemplate}"/>
+                <Button Content="Train" Tag="9" Template="{DynamicResource TrainButtonControlTemplate}"/>
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Grid.Column="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Style="{DynamicResource ButtonStyleMainMenu}" Content="Trigger" Margin="10" Command="{Binding Camera.CmdOneShot}"/>
+
+
+            <ToggleButton x:Name="toggleButtonContinue" Content="Continue" IsChecked="{Binding Camera.IsContinueMode}" Margin="10" Grid.Column="1" Command="{Binding Camera.CmdContinueShot}" CommandParameter="{Binding IsChecked, ElementName=toggleButtonContinue}"/>
+            <ToggleButton x:Name="toggleButtonOnline" Content="Online" Margin="10" Grid.Column="2" Command="{Binding Camera.CmdOnline}" CommandParameter="{Binding IsChecked, ElementName=toggleButtonOnline}"/>
+            <Grid Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Exposure" Style="{DynamicResource TblStyleStandard}"/>
+                
+                <Internal:NumericUpDown Grid.Column="1" Style ="{DynamicResource NumericUpDownStyle1}" Value="{Binding Exposure, Mode=TwoWay}" Step="0.01" DecimalPlaces="2"/>
+                <Button Grid.Column="2" Command="{Binding CmdSetCameraParams}" Style="{DynamicResource TextBlockStyleMainMenu}" Margin="10" Content="Set"/>
+                <Button Grid.Column="6" Grid.Row="1" Content="Initialize" FontSize="20" Command="{Binding Tool.CmdInitialize}"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="1" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.CapacityResult}"/>
+                <TextBlock Grid.Row="2" Grid.Column="1" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.PartNo[0]}"/>
+                <TextBlock Grid.Row="2" Grid.Column="2" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.Capacity[0]}"/>
+                <TextBlock Grid.Row="2" Grid.Column="3" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.Speed[0]}"/>
+                <TextBlock Grid.Row="2" Grid.Column="4" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.StickDirection[0]}"/>
+                <TextBlock Grid.Row="2" Grid.Column="5" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.Barcode[0]}"/>
+                <TextBlock Grid.Row="3" Grid.Column="1" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.PartNo[1]}"/>
+                <TextBlock Grid.Row="3" Grid.Column="2" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.Capacity[1]}"/>
+                <TextBlock Grid.Row="3" Grid.Column="3" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.Speed[1]}"/>
+                <TextBlock Grid.Row="3" Grid.Column="4" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.StickDirection[1]}"/>
+                <TextBlock Grid.Row="4" Grid.Column="2" Foreground="White" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Tool.TacTime}"/>
+                <CheckBox Grid.Row="5" Grid.Column="1" Foreground="White" Content="First Fix Enable" IsChecked="{Binding Tool.FirstFixtureEnable, Mode=TwoWay}"/>
+                <CheckBox Grid.Row="5" Grid.Column="2" Foreground="White" Content="Second Fix Enable" IsChecked="{Binding Tool.SecondFixtureEnable, Mode=TwoWay}"/>
+                <GroupBox Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="5" Margin="0,0,0,50">
+                    <GroupBox.Header>
+                        <TextBlock Text="Main &amp; SubFixture" Foreground="White" FontSize="20"/>
+                    </GroupBox.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Button Style="{DynamicResource ButtonStylemainBtn}" Content="Main TrainRegion" Command="{Binding Tool.CmdMainTrainRegion}"/>
+                            <Button Grid.Row="1" Style="{DynamicResource ButtonStylemainBtn}" Content="Train Main Pattern" Command="{Binding Tool.CmdTrainMainPattern}"/>
+                            <!--<Button Grid.Row="2" Style="{DynamicResource ButtonStylemainBtn}" Content="Main TrainRegion"/>-->
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Button Style="{DynamicResource ButtonStylemainBtn}" Content="Sub TrainRegion" Command="{Binding Tool.CmdSubTrainRegion}"/>
+                            <Button Grid.Row="1" Style="{DynamicResource ButtonStylemainBtn}" Content="Sub SearchRegion" Command="{Binding Tool.CmdSubSearchRegion}"/>
+                            <Button Grid.Row="2" Style="{DynamicResource ButtonStylemainBtn}" Content="Train SubPattern" Command="{Binding Tool.CmdTrainSubPattern}"/>
+                        </Grid>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <ListBox Grid.Column="0" ItemsSource="{Binding Tool.PMTools}" SelectedValuePath="PMTool" SelectedValue="{Binding Tool.SelectedTool}" Background="Transparent">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Height="30" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox HorizontalAlignment="Stretch" FontSize="20" BorderBrush="Transparent" Background="Transparent"  Foreground="White" Text="{Binding PMTool.Name}"/>
+                            <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Text="{Binding PMTool.Results, Converter={StaticResource pmResultConverter }}"/>
+                            <ComboBox Grid.Column="2" Width="150" ItemsSource="{Binding Tool.Spaces ,Source={StaticResource Locator}}" SelectedValue="{Binding PMTool.SearchRegion.SelectedSpaceName, Mode=TwoWay}"/>
+                            <CheckBox Grid.Column="3" Width="50" IsChecked="{Binding Enable}"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <ListBox Grid.Column="1" Background="Transparent">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="2" Background="Transparent"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <Button   Width="30" Height="35" Content="+" FontSize="24" FontWeight="Bold"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" BorderBrush="LimeGreen" Foreground="LimeGreen" Command="{Binding Tool.CmdAddPMTool}"/>
+                <Button  Width="30" Height="35" Content="-" FontSize="28" FontWeight="Bold"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" BorderBrush="Red" Foreground="Red" Command="{Binding Tool.CmdRemovePMTool}"/>
+                <Button Margin="3" Width="40" Height="35" Content="SR" Command="{Binding Tool.CmdPMToolSearchRegion}"/>
+                <Button Margin="3" Width="40" Height="35" Content="TR" Command="{Binding Tool.CmdPMToolTrainRegion}"/>
+                <Button Margin="3" Width="40" Height="35" Content="Train" Command="{Binding Tool.CmdTrainPMTool}"/>
+                <Button Margin="3" Width="40" Height="35" Content="Run" Command="{Binding Tool.CmdRunPMTools}"/>
+            </ListBox>
+            <Grid Grid.Column="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Content="Save" Command="{Binding Tool.CmdSave}"/>
+                <Button Grid.Column="1" Content="Load" Command="{Binding Tool.CmdLoad}"/>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</UserControl>

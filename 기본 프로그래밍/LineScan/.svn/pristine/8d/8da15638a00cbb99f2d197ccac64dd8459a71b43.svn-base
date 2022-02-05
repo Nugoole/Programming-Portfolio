@@ -1,0 +1,7 @@
+﻿namespace LineScanViewer.Messenger
+{
+    public class OnImageSavePathChangedMessenger
+    {
+        public string ChangedImageSavePath { get; set; }
+    }
+}

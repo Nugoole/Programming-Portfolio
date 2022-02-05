@@ -1,0 +1,204 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LineScanViewer.View"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             xmlns:DisplayWPF="clr-namespace:ALT.DisplayWPF;assembly=ALT.DisplayWPF"
+             xmlns:Default="clr-namespace:LineScanViewer.ViewModel"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:evt ="http://www.galasoft.ch/mvvmlight"
+             xmlns:md="clr-namespace:LineScanViewer.Model"
+             x:Class="LineScanViewer.View.UCCameraView"
+             
+             mc:Ignorable="d" 
+             d:DesignHeight="753" d:DesignWidth="1527" DataContext="{Binding CameraView,Source={StaticResource Locator}}">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\Dictionaries\DictionaryTextBox.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Default:ObjectToStringConverter x:Key="ObjectToStringConverter"/>
+            <Default:BoolInverter x:Key="BoolInverter"/>
+            <Default:BoolToSetStringConverter x:Key="BoolToSetStringConverter"/>
+            <Default:ScanLengthValidator x:Key="scanLengthValidator"/>
+            <Default:MultiBooleanAndConverter x:Key="multiBooleanAndConverter"/>
+            <ObjectDataProvider x:Key="ImageFormats" MethodName="GetNames" ObjectType="{x:Type System:Enum}">
+                <ObjectDataProvider.MethodParameters>
+                    <x:Type TypeName="md:Enums+ImageFormat" />
+                </ObjectDataProvider.MethodParameters>
+            </ObjectDataProvider>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+
+
+    <Grid Background="White" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2.5*"/>
+            <ColumnDefinition Width="11*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <DisplayWPF:UCMain x:Name="uCMain" Margin="20,10" Grid.Column="1"  ImageFilePath="{Binding Image}" >
+            <!--<DisplayWPF:UCMain.Style>
+                <Style TargetType="DisplayWPF:UCMain">
+                    <Style.Triggers>
+                        <Trigger Property=""
+                    </Style.Triggers>
+                </Style>
+            </DisplayWPF:UCMain.Style>-->
+        </DisplayWPF:UCMain>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="1.5*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="1.5*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button ClickMode="Press" Width="49" Margin="10,10,0,0" Height="48" BorderBrush="{x:Null}" IsEnabled="{Binding IsCameraGrabbable}" Foreground="{x:Null}" Command="{Binding OnImageSaveBtnClicked}" Grid.ColumnSpan="2">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Style.Triggers>
+                                    <Trigger Property="IsEnabled" Value="False">
+                                        <Setter Property="Opacity" Value="0.5"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Image Source="/LineScanViewer;component/Resources/SaveImage.png" />
+                    </Button>
+                </StackPanel>
+
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="textBlock" Grid.Row="0" Grid.Column="0" Text="ScanLineLength" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" />
+                    <TextBox x:Name="scanLengthTextBox" Grid.Row="0" Grid.Column="1" Style="{DynamicResource IntegerTextBox}" VerticalContentAlignment="Center"   Height="25"     IsEnabled="{Binding IsCameraGrabbable, FallbackValue=False}" FontSize="16">
+                        <Validation.ErrorTemplate>
+                            <ControlTemplate>
+                                <StackPanel>
+                                    <AdornedElementPlaceholder x:Name="textBox"/>
+                                    <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                                </StackPanel>
+                            </ControlTemplate>
+                        </Validation.ErrorTemplate>
+                        <TextBox.InputBindings>
+                            <KeyBinding Key="Enter" Command="{Binding TextBoxEnterPressed}" CommandParameter="{Binding ElementName=scanLengthTextBox, Mode=OneWay}"/>
+                        </TextBox.InputBindings>
+                        <TextBox.Text>
+                            <Binding Path="ScanLineLength" UpdateSourceTrigger="LostFocus">
+                                <Binding.ValidationRules>
+                                    <Default:ScanLengthValidator MinScanSize="10" ValidatesOnTargetUpdated="True"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <TextBlock Text="Format" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
+                    <TextBlock  Grid.Row="1" Grid.Column="1" Height="25" Text="{Binding ImageFormat, Converter={StaticResource ObjectToStringConverter}}"  FontSize="14" />
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="LiveScanLength" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
+                    <TextBox x:Name="liveScanLengthTextBox" Grid.Row="2" Grid.Column="1"  VerticalAlignment="Center" IsEnabled="{Binding IsCameraGrabbable, FallbackValue=false}" >
+                        <Validation.ErrorTemplate>
+                            <ControlTemplate>
+                                <StackPanel>
+                                    <AdornedElementPlaceholder x:Name="textBox"/>
+                                    <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                                </StackPanel>
+                            </ControlTemplate>
+                        </Validation.ErrorTemplate>
+                        <TextBox.InputBindings>
+                            <KeyBinding Key="Enter" Command="{Binding TextBoxEnterPressed}" CommandParameter="{Binding ElementName=liveScanLengthTextBox, Mode=OneWay}"/>
+                        </TextBox.InputBindings>
+                        <TextBox.Text>
+                            <Binding Path="LiveScanLength" UpdateSourceTrigger="LostFocus">
+                                <Binding.ValidationRules>
+                                    <Default:ScanLengthValidator MinScanSize="10" ValidatesOnTargetUpdated="True" />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Style="{StaticResource RoundCornerButton}" Content="Grab" Margin="10,10"   Command="{Binding OnGrabBtnClicked}" CommandParameter="{Binding Text, ElementName=textBox}"  FontSize="36">
+                        <Button.IsEnabled>
+                            <MultiBinding Converter="{StaticResource multiBooleanAndConverter}" FallbackValue="False">
+                                <Binding Path="IsCameraGrabbing" Converter="{StaticResource BoolInverter}"/>
+                                <Binding Path="IsDCFSet"/>
+                                <Binding ElementName="scanLengthTextBox" Path="(Validation.HasError)" Converter="{StaticResource BoolInverter}"/>
+                                <Binding ElementName="liveScanLengthTextBox" Path="(Validation.HasError)" Converter="{StaticResource BoolInverter}"/>
+                            </MultiBinding>
+                        </Button.IsEnabled>
+                    </Button>
+                    <ToggleButton Style="{StaticResource RoundCornerToggleButton}" x:Name="liveBtn" Margin="10,10" Grid.Column="1" Content="Live" IsChecked="False"  FontSize="36">
+                        <ToggleButton.IsEnabled>
+                            <MultiBinding Converter="{StaticResource multiBooleanAndConverter}" FallbackValue="False">
+                                <Binding Path="IsDCFSet"/>
+                                <Binding ElementName="liveScanLengthTextBox" Path="(Validation.HasError)" Converter="{StaticResource BoolInverter}"/>
+                                <Binding ElementName="scanLengthTextBox" Path="(Validation.HasError)" Converter="{StaticResource BoolInverter}"/>
+                            </MultiBinding>
+                        </ToggleButton.IsEnabled>
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Checked">
+                                <i:InvokeCommandAction Command="{Binding OnToggleLiveBtn}" CommandParameter="{Binding IsChecked,ElementName=liveBtn}"/>
+                            </i:EventTrigger>
+                            <i:EventTrigger EventName="Unchecked">
+                                <i:InvokeCommandAction Command="{Binding OnToggleLiveBtn}" CommandParameter="{Binding IsChecked,ElementName=liveBtn}"/>
+                            </i:EventTrigger>
+
+                        </i:Interaction.Triggers>
+
+                    </ToggleButton>
+                </Grid>
+            </Grid>
+
+
+
+
+
+
+
+
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Red" VerticalAlignment="Center" Margin="30,7,29,7" HorizontalAlignment="Center" Grid.Row="0"/>
+                <TextBlock Text="Green" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Text="Blue" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Text="Position" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="22" Grid.Row="0" IsHitTestVisible="False" TextWrapping="Wrap" Text="{Binding ColorFromCursor.R, ElementName=uCMain}" VerticalAlignment="Center" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="24" Grid.Row="1" IsHitTestVisible="False" TextWrapping="Wrap" Text="{Binding ColorFromCursor.G, ElementName=uCMain}" VerticalAlignment="Center" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="22" Grid.Row="2" IsHitTestVisible="False" TextWrapping="Wrap" Text="{Binding ColorFromCursor.B, ElementName=uCMain}" VerticalAlignment="Center" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="22" Grid.Row="3" IsHitTestVisible="False" TextWrapping="Wrap" Text="{Binding CursorPosition, ElementName=uCMain, StringFormat=' \{0:F0\}'}" VerticalAlignment="Center" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

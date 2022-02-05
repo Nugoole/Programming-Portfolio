@@ -1,0 +1,112 @@
+﻿<Window
+    x:Class="WPF_3D.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:behv="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WPF_3D"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    DataContext="{Binding Main, Source={StaticResource Locator}}"
+    mc:Ignorable="d">
+    <Grid Background="DarkBlue">
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Reset View" Command="{Binding ResetView}">
+                    
+                </MenuItem>
+            </ContextMenu>
+        </Grid.ContextMenu>
+
+        <behv:Interaction.Triggers>
+            <behv:EventTrigger EventName="MouseDown">
+                <behv:InvokeCommandAction Command="{Binding MouseDown}" PassEventArgsToCommand="True" />
+            </behv:EventTrigger>
+            <behv:EventTrigger EventName="MouseUp">
+                <behv:InvokeCommandAction Command="{Binding MouseUp}" PassEventArgsToCommand="True" />
+            </behv:EventTrigger>
+            <behv:EventTrigger EventName="MouseWheel">
+                <behv:InvokeCommandAction Command="{Binding MouseWheel}" PassEventArgsToCommand="True" />
+            </behv:EventTrigger>
+            <behv:EventTrigger EventName="MouseMove">
+                <behv:InvokeCommandAction Command="{Binding MouseMove}" PassEventArgsToCommand="True" />
+            </behv:EventTrigger>
+        </behv:Interaction.Triggers>
+        <UniformGrid>
+            <TextBlock DockPanel.Dock="Top" Text="{Binding CameraPosition}" />
+            <TextBlock DockPanel.Dock="Top" Text="{Binding CameraLookDirection}" />
+            <TextBlock DockPanel.Dock="Top" Text="{Binding PositionDelta}" />
+        </UniformGrid>
+
+        <Viewport3D ClipToBounds="False" IsHitTestVisible="False" RenderOptions.EdgeMode="Aliased">
+            <Viewport3D.Camera>
+                <PerspectiveCamera
+                    x:Name="Camera"
+                    FieldOfView="{Binding FOV}"
+                    LookDirection="{Binding CameraLookDirection}"
+                    Position="{Binding CameraPosition}" />
+            </Viewport3D.Camera>
+            <Viewport3D.Children>
+                <ModelVisual3D>
+                    <ModelVisual3D.Content>
+                        <GeometryModel3D>
+                            <GeometryModel3D.Geometry>
+                                <MeshGeometry3D
+                                    x:Name="mesh"
+                                    Positions="{Binding Positions}"
+                                    TextureCoordinates=""
+                                    TriangleIndices="{Binding Indices}" />
+                            </GeometryModel3D.Geometry>
+                            <GeometryModel3D.Material>
+                                <DiffuseMaterial>
+                                    <DiffuseMaterial.Brush>
+                                        <SolidColorBrush Opacity="1" Color="#FF8F8585" />
+                                    </DiffuseMaterial.Brush>
+                                </DiffuseMaterial>
+                            </GeometryModel3D.Material>
+                            <GeometryModel3D.Transform>
+                                <Transform3DGroup>
+                                    <TranslateTransform3D
+                                        OffsetX="{Binding OffsetX}"
+                                        OffsetY="{Binding OffsetY}"
+                                        OffsetZ="{Binding OffsetZ}" />
+                                    <RotateTransform3D>
+                                        <RotateTransform3D.Rotation>
+                                            <AxisAngleRotation3D
+                                                x:Name="xAxisLotation"
+                                                Angle="{Binding AngleY}"
+                                                Axis="1 0 0" />
+                                        </RotateTransform3D.Rotation>
+                                    </RotateTransform3D>
+                                    <RotateTransform3D>
+                                        <RotateTransform3D.Rotation>
+                                            <AxisAngleRotation3D
+                                                x:Name="yAxisLotation"
+                                                Angle="{Binding AngleX}"
+                                                Axis="0 1 0" />
+                                        </RotateTransform3D.Rotation>
+                                    </RotateTransform3D>
+                                    <RotateTransform3D>
+                                        <RotateTransform3D.Rotation>
+                                            <AxisAngleRotation3D x:Name="zAxisLotation" Axis="0 0 1" />
+                                        </RotateTransform3D.Rotation>
+                                    </RotateTransform3D>
+                                </Transform3DGroup>
+
+                            </GeometryModel3D.Transform>
+                        </GeometryModel3D>
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+                <ModelVisual3D>
+                    <ModelVisual3D.Content>
+                        <DirectionalLight Direction="768 512 100" Color="AliceBlue" />
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+            </Viewport3D.Children>
+
+        </Viewport3D>
+        
+    </Grid>
+</Window>

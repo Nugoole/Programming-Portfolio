@@ -1,0 +1,6 @@
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\DLLs\ALT.CVL.Core.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\DLLs\ALT.CVL.Core.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\x64\배포\ALT.CVL.Core.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\x64\배포\ALT.CVL.Core.dll
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\x64\배포\ALT.CVL.Core.pdb
+C:\Users\MSI\Desktop\프로젝트 폴더\ALT.CVL\ALT.CVL.Core\obj\x64\배포\ALT.CVL.Core.csproj.AssemblyReference.cache

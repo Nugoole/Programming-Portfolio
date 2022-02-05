@@ -1,0 +1,40 @@
+﻿<Window x:Name="window" x:Class="ALT.TIS.EssenCore.OCRMemory.Views.WdAccess"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:multiconverter="clr-namespace:ALT.TIS.EssenCore.OCRMemory.Converters"
+        xmlns:local="clr-namespace:ALT.TIS.EssenCore.OCRMemory.Views"
+        mc:Ignorable="d"
+        Title="WdAccess" Height="200" Width="300" WindowStyle="None" Background="#FF646464" WindowStartupLocation="CenterScreen" DataContext="{Binding Mode=OneWay, Source={StaticResource Locator}}" ScrollViewer.VerticalScrollBarVisibility="Disabled" FocusManager.FocusedElement="{Binding ElementName=pwbox}">
+    <Window.Resources>
+        <multiconverter:MultiConverterLogin x:Key="loginConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="현재 권한 : " Foreground="#FFE4E4E4" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="MAKER" Foreground="#FFE4E4E4" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1"/>
+        <TextBlock Text="PASSWORD" Foreground="#FFE4E4E4" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+        <PasswordBox x:Name="pwbox" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" FontSize="20" Width="150" Height="30" Grid.Row="1"/>
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Accept" Grid.Row="2" Style="{DynamicResource ButtonStyleMainMenu}" Command="{Binding Main.CmdAcceptAccessDialog}" Margin="10" Width="100" IsDefault="True">
+                <Button.CommandParameter>
+                    <MultiBinding Converter="{StaticResource loginConverter}">
+                        <Binding ElementName="window"/>
+                        <Binding ElementName="pwbox"/>
+                    </MultiBinding>
+                </Button.CommandParameter>
+            </Button>
+            <Button Content="Cancel" Grid.Row="2" Style="{DynamicResource ButtonStyleMainMenu}" Command="{Binding Main.CmdCancelAccessDialog}" Margin="10" Width="100" CommandParameter="{Binding ElementName=window, Mode=OneWay}" IsCancel="True"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

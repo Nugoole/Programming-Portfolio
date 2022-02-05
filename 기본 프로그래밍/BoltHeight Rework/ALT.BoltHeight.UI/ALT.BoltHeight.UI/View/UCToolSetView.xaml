@@ -1,0 +1,211 @@
+﻿<UserControl x:Name="userControl" 
+             x:Class="ALT.BoltHeight.Views.UCToolSetView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:cog="clr-namespace:CogDisplayWPF;assembly=CogDisplayWPF"
+             xmlns:cog3d="clr-namespace:Viewer;assembly=Cog3DViewer"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1000" DataContext="{Binding ToolSet, Source={StaticResource Locator}}" Background="White" Margin="20,0,0,0">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding Path=OnToolSetViewLoaded}" CommandParameter="{Binding ElementName=cogDisplayForWPF}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/MaterialDesignColor.Indigo.Named.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="#FF02B402"/>
+            <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="#FF1DCA1D"/>
+            <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="#FF188D18"/>
+            <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="#FFFFFF12"/>
+            <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="#4D1DCF"/>
+            <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="#FFFFFF"/>
+            <!-- accent -->
+            <SolidColorBrush x:Key="SecondaryAccentBrush" Color="#FF4C4B4F"/>
+            <SolidColorBrush x:Key="SecondaryAccentForegroundBrush" Color="#FFFFFF"/>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+    <Grid IsEnabled="{Binding Camera.IsConnected, Source={StaticResource Locator}}" >
+        <!--<Grid DataContext="{Binding ToolSet,Source={StaticResource Locator}}">-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="299*"/>
+            <ColumnDefinition Width="299*"/>
+            <ColumnDefinition Width="256*"/>
+            <ColumnDefinition Width="146*" />
+        </Grid.ColumnDefinitions>
+
+        <!--<cog:CogDisplayForWPF Grid.Column="0" x:FieldModifier="public" x:Name="cogDisplayForWPF" Image="{Binding DisplayImage, Mode=TwoWay}" InteractiveGraphicSource="{Binding AllRegions, Mode=TwoWay}" SelectedGraphic="{Binding SelectedGraphic, Mode=TwoWay}" Record="{Binding DisplayRecord, Mode=OneWay}" SaveImageEnable="{Binding SaveImageEnable, Mode=TwoWay}" ColorMapEnable="{Binding ColorMapEnable}" GraphicClearOnDrag="True" StatusBarVisible="True"/>-->
+        <Grid Grid.Column="1">
+            <Border BorderBrush="Black" BorderThickness="1">
+                <!--<cog3d:Cog3DViewer RangeImage="{Binding RangeImage, Mode=TwoWay}" RangeWithGrey="True"/>-->
+            </Border>
+        </Grid>
+
+
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="120*"/>
+                <RowDefinition Height="200*"/>
+                <RowDefinition Height="210*"/>
+                <RowDefinition Height="100*"/>
+            </Grid.RowDefinitions>
+            <GroupBox Header="Acquisition" Margin="5" Style="{DynamicResource MaterialDesignGroupBox}"  materialDesign:ColorZoneAssist.Mode="Standard">
+                <Grid Margin="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4.5*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button  Content="Acquire" HorizontalAlignment="Center" VerticalAlignment="Center" Width="90" Margin="13,13,11,13" Command="{Binding OnAcquisitionStart}"  Grid.RowSpan="3" />
+
+                    <TextBlock Text="SaveImage" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center"/>
+                    <CheckBox x:Name="saveImage" Grid.Row="0" Grid.Column="2"  IsChecked="{Binding SaveImage, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource MaterialDesignSwitchToggleButton}" >
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Checked">
+                                <i:InvokeCommandAction Command="{Binding OnSaveImageChecked}" CommandParameter="{Binding ElementName=cogDisplayForWPF}"/>
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </CheckBox>
+                    <TextBlock Text="OverlayGraphic" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="1"/>
+                    <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="{Binding IsEnabled, ElementName=saveImage}" IsChecked="{Binding OverlayGraphic, Mode=OneWayToSource}" Grid.Column="2" Grid.Row="1"  Style="{DynamicResource MaterialDesignSwitchToggleButton}"/>
+                    <TextBlock Text="ColorMap" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="2"/>
+                    <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center"   Grid.Row="2" Grid.Column="2" Style="{DynamicResource MaterialDesignSwitchToggleButton}" >
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Checked">
+                                <i:InvokeCommandAction Command="{Binding OnColorMapEnabled}"/>
+                            </i:EventTrigger>
+                            <i:EventTrigger EventName="Unchecked">
+                                <i:InvokeCommandAction Command="{Binding OnColorMapDisabled}" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </CheckBox>
+
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="Align" Grid.Row="1" Margin="5" materialDesign:ColorZoneAssist.Mode="Standard">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Button Content="PatMaxRegion" Command="{Binding OnPMRegionSet}" Margin="2"/>
+                        <Button Content="Train" Command="{Binding OnPMTrain}" Grid.Row="1" Margin="2"/>
+                        <Button Content="UnTrain" Command="{Binding OnUnTrain}" Grid.Row="2" Margin="2"/>
+                        <Button Content="Set ROI" Command="{Binding OnPMROISet}" Grid.Row="3" Margin="2"/>
+                    </Grid>
+
+                    <Label Content="{Binding Trained, Mode=OneWay}"  Margin="0" FontSize="25" Style="{DynamicResource LabelStyleTrain}" BorderThickness="1" BorderBrush="LightGray" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Column="1"/>
+
+                </Grid>
+            </GroupBox>
+            <Grid Grid.Row="2" Margin="0,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="35"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <GroupBox Header="Height" Margin="5" materialDesign:ColorZoneAssist.Mode="Standard">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Button Grid.Row="2" Height="25" Content="Add Circle" HorizontalAlignment="Center" VerticalAlignment="Center"  Command="{Binding OnHeightToolCircleAdd}" Padding="10,-2"/>
+                        <Button Grid.Row="1"  Height="25" Content="Add Rect" HorizontalAlignment="Center" VerticalAlignment="Center"  Command="{Binding OnHeightToolRectangleAdd}" Padding="10,0"/>
+                        <Button Grid.Row="0"  Height="25" Content="Set BasePlane" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding OnSetHeightBasePlane}" Padding="16,0"/>
+                    </Grid>
+                </GroupBox>
+
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Tilt" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0"/>
+                    <Button Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"    Command="{Binding OnTiltCalcToolAdd}">
+                        <materialDesign:PackIcon Kind="Add" Foreground="White">
+                            <materialDesign:PackIcon.LayoutTransform>
+                                <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                            </materialDesign:PackIcon.LayoutTransform>
+                        </materialDesign:PackIcon>
+                    </Button>
+                    <TextBlock Text="Cross Section" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap"/>
+                    <Button Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding OnCrossSectionRegionAddClicked}">
+                        <materialDesign:PackIcon Kind="Add" Foreground="White">
+                            <materialDesign:PackIcon.LayoutTransform>
+                                <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                            </materialDesign:PackIcon.LayoutTransform>
+                        </materialDesign:PackIcon>
+                    </Button>
+                </Grid>
+               
+                <Button Content="Remove Region" VerticalAlignment="Center" HorizontalAlignment="Center" Command="{Binding OnSelectedGraphicRemoved}" Grid.Row="1"/>
+                <Button Content="Remove All Region" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1"  Grid.Row="1" Command="{Binding OnRemoveAllRegionClicked}" Padding="10,4"/>
+            </Grid>
+            <Grid Margin="5,0,0,0" Grid.Row="3" >
+                <GroupBox  Header="Option" materialDesign:ColorZoneAssist.Mode="Standard">
+                    <Grid Margin="0,0,-5,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="1.2*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0"  VerticalAlignment="Center" HorizontalAlignment="Center"   Content="See Regions" Command="{Binding OnRegionVisibleChanged}" Padding="5,4"/>
+                        <Button Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center"  Content="Run Once" Command="{Binding RunOnce}" Padding="5,4"/>
+                        <Button Grid.Column="2" Content="Cam Setting" HorizontalAlignment="Center" VerticalAlignment="Center"  Command="{Binding OnCamSetBtnClicked}" Padding="10,4" />
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="3" Margin="6,0,-1,0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <DataGrid AutoGenerateColumns="False" Grid.Row="0" ItemsSource="{Binding AllRegions}" DataContext="{Binding Mode=OneWay}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="RegionName" Binding="{Binding TipText}" Width="*" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <DataGrid x:Name="Datagrid" Grid.Row="1" ItemsSource="{Binding ToolResultSet}" DataContext="{Binding Mode=OneWay}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDoubleClick">
+                        <i:InvokeCommandAction Command="{Binding OnDataGridItemDoubleClicked}" CommandParameter="{Binding SelectedItem, ElementName=Datagrid }"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </DataGrid>
+        </Grid>
+        <!--</Grid>-->
+    </Grid>
+</UserControl>

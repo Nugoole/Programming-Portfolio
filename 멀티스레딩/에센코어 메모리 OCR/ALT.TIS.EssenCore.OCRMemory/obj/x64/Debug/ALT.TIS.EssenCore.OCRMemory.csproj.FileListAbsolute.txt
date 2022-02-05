@@ -1,0 +1,40 @@
+\\vpdl\Proceed\TIS\JD_Test\ALT.Logger.dll
+\\vpdl\Proceed\TIS\JD_Test\ALT.TIS.EssenCore.OCRMemory.exe.config
+\\vpdl\Proceed\TIS\JD_Test\ALT.TIS.EssenCore.OCRMemory.exe
+\\vpdl\Proceed\TIS\JD_Test\ALT.TIS.EssenCore.OCRMemory.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Dictionaries\DictionaryButtonStyle.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Dictionaries\DictionaryListView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Dictionaries\DictionaryLogViewerStyle.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Dictionaries\DictionaryTextBlock.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\MainWindow.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCCameraView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCConfigView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCIOView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCLogView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCRecipeView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCResultView.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\WdAccess.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\WdRecipeAdd.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\App.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory_Content.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory_MarkupCompile.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory_MarkupCompile.lref
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\App.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\MainWindow.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCCameraView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCConfigView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCIOView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCLogView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCRecipeView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\UCResultView.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\WdAccess.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\Views\WdRecipeAdd.baml
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory.g.resources
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory.Properties.Resources.resources
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory.csproj.CopyComplete
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory.exe
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.TIS.EssenCore.OCRMemory\obj\x64\Debug\ALT.TIS.EssenCore.OCRMemory.pdb

@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="ALT.DS.UC.View.UCCrossSectionExtract"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ALT.DS.UC.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="301" d:DesignWidth="298" DataContext="{Binding CrossSectionToolSet, Mode=OneWay, Source={StaticResource DSLocator}}" >
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.5*"/>
+                <RowDefinition Height="1.5*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            
+
+            <TextBlock Grid.Row="1" Text="Point" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <ComboBox Grid.Row="2" VerticalAlignment="Top" Margin="5,0">
+                <ComboBoxItem>
+                    
+                </ComboBoxItem>
+            </ComboBox>
+
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.5*"/>
+                <RowDefinition Height="1.5*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            
+
+            <TextBlock Grid.Row="1" Text="LineSegment" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <ComboBox Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="5,0"/>
+        </Grid>
+        
+    </Grid>
+</UserControl>

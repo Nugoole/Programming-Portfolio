@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38AB373B-CE22-49E6-B2EC-E84B78A51CC7}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>ALT.DS.UC</RootNamespace>
+    <AssemblyName>ALT.DS.UC</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Remote|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Remote\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cognex.VisionPro, Version=71.2.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Core, Version=71.2.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.CorePlus, Version=71.2.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.CorePlus.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro3D, Version=71.2.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro3D.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro3D.Core, Version=71.2.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro3D.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CommonServiceLocator, Version=2.0.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.2.0.2\lib\net47\CommonServiceLocator.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight, Version=5.4.1.0, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.4.1.1\lib\net45\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras, Version=5.4.1.0, Culture=neutral, PublicKeyToken=669f0b5e8f868abf, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.4.1.1\lib\net45\GalaSoft.MvvmLight.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform, Version=5.4.1.0, Culture=neutral, PublicKeyToken=5f873c45e98af8a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.4.1.1\lib\net45\GalaSoft.MvvmLight.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Expression.Interaction.3.0.40218.0\lib\net46\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework.Aero2" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Expression.Interaction.3.0.40218.0\lib\net46\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dictionaries\CrossSectionPointSelector.cs" />
+    <Compile Include="Dictionaries\DictionaryMaterialDesign.xaml.cs">
+      <DependentUpon>DictionaryMaterialDesign.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dictionaries\DictionaryTextBoxStyle.xaml.cs">
+      <DependentUpon>DictionaryTextBoxStyle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dictionaries\PointTypeEnumGenerator.cs" />
+    <Compile Include="Dictionaries\StringToPointTypeConverter.cs" />
+    <Compile Include="DSToggleButtonStyle.xaml.cs">
+      <DependentUpon>DSToggleButtonStyle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Messenger\AcquiredImageMessenger.cs" />
+    <Compile Include="Messenger\ConfigMessenger.cs" />
+    <Compile Include="Messenger\CrossSectionRegionNameSetMessenger.cs" />
+    <Compile Include="Messenger\ExceptionMessenger.cs" />
+    <Compile Include="Messenger\FixturedImageMessenger.cs" />
+    <Compile Include="Messenger\GridMessenger.cs" />
+    <Compile Include="Messenger\OnLoadingMessenger.cs" />
+    <Compile Include="Messenger\ParamSaveLoadMessenger.cs" />
+    <Compile Include="Messenger\RegionNameSetCompleteMessenger.cs" />
+    <Compile Include="Messenger\_3DGraphicVisionDataAcquiredMessenger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SlideToggleButton.cs" />
+    <Compile Include="ViewModel\CameraViewModel\VMCameraView.cs" />
+    <Compile Include="ViewModel\CameraViewModel\VMCameraView_RelayCommands.cs" />
+    <Compile Include="ViewModel\ToolSetViewModel\VMToolSetView.cs" />
+    <Compile Include="ViewModel\ToolSetViewModel\VMToolSetView_MessengerListner.cs" />
+    <Compile Include="ViewModel\ToolSetViewModel\VMToolSetView_RelayCommands.cs" />
+    <Compile Include="ViewModel\DSCameraViewmodelLocator.cs" />
+    <Compile Include="ViewModel\VMCrossSectionToolSetWindow.cs" />
+    <Compile Include="ViewModel\VMRegionNameSet.cs" />
+    <Compile Include="View\CameraWindow.xaml.cs">
+      <DependentUpon>CameraWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CrossSectionToolSetWindow.xaml.cs">
+      <DependentUpon>CrossSectionToolSetWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RegionNameSetWindow.xaml.cs">
+      <DependentUpon>RegionNameSetWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCCameraView.xaml.cs">
+      <DependentUpon>UCCameraView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCCrossSectionExtract.xaml.cs">
+      <DependentUpon>UCCrossSectionExtract.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UCToolSetView.xaml.cs">
+      <DependentUpon>UCToolSetView.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ALT.BoltHeight.Model3D\ALT.DSCamera.csproj">
+      <Project>{233c1d25-f0ee-4e0a-ad5f-98f76d2c6161}</Project>
+      <Name>ALT.DSCamera</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cog3DViewer\Cog3DViewer.csproj">
+      <Project>{01af8da9-e6a0-4df0-8395-37027b792eba}</Project>
+      <Name>Cog3DViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CogDisplayWPF\CogDisplayWPF.csproj">
+      <Project>{cba62108-2428-4e2d-9fbb-1668d4b17bc6}</Project>
+      <Name>CogDisplayWPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\JsonSaveLoader\JsonSaveLoader.csproj">
+      <Project>{2eb22a66-f058-423d-b9be-5139e6cd6400}</Project>
+      <Name>JsonSaveLoader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\827.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon_ca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon_con.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon_fo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon_mo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon_set.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Live.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\logo-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Loop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Model.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TBbt_eng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TBline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TBtit_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TBtit_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Trigger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Dictionaries\DictionaryButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dictionaries\DictionaryComboBoxStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dictionaries\DictionaryCrossSection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dictionaries\DictionaryLabelStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dictionaries\DictionaryMaterialDesign.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dictionaries\DictionaryTextBoxStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dictionaries\DictionaryUC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DSButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DSToggleButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CameraWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CrossSectionToolSetWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\RegionNameSetWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\UCCameraView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\UCCrossSectionExtract.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\UCToolSetView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Add-green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\arrow-down.png" />
+    <Resource Include="Resources\arrow-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\remove-red.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

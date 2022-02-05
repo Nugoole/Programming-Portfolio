@@ -1,0 +1,12 @@
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\bin\Debug\ALT.Serialize.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\bin\Debug\ALT.Serialize.pdb
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\obj\Debug\ALT.Serializer.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\obj\Debug\ALT.Serializer.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\obj\Debug\ALT.Serialize.dll
+C:\Users\MSI\Desktop\에센코어 메모리 OCR\ALT.Serializer\obj\Debug\ALT.Serialize.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.Serializer\bin\Debug\ALT.Serialize.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.Serializer\bin\Debug\ALT.Serialize.pdb
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.Serializer\obj\Debug\ALT.Serializer.csprojAssemblyReference.cache
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.Serializer\obj\Debug\ALT.Serializer.csproj.CoreCompileInputs.cache
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.Serializer\obj\Debug\ALT.Serialize.dll
+D:\바탕화면 파일들(건들지마시옹)\정리 폴더\멀티스레딩\에센코어 메모리 OCR\ALT.Serializer\obj\Debug\ALT.Serialize.pdb

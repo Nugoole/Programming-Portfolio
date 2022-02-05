@@ -1,0 +1,104 @@
+﻿<Window x:Class="LineScanViewer.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:local="clr-namespace:LineScanViewer"
+        mc:Ignorable="d"
+        Title="ALT System" Height="1040" Width="1920" DataContext="{Binding Main, Source={StaticResource Locator}}" WindowState="Maximized" Background="White">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Closed">
+            <i:InvokeCommandAction Command="{Binding Path=OnClosing}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid Width="1920" Height="1040">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="160"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="77"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="273"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="60"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1" Grid.Row="1" Background="#FF353942" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="Menu" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Row="1" Margin="20,0,0,0" FontSize="14"/>
+            <ToggleButton Grid.Row="2" Style="{DynamicResource ToggleButtonMain}" Content="CONNECT">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="/LineScanViewer;component/Resources/icon_con.png" Stretch="None">
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </ToggleButton.Background>
+            </ToggleButton>
+            <RadioButton Command="{Binding CmdLoadCameraView}" Style="{DynamicResource RadioButtonMain}" Content="CAMERA" Grid.Row="3" GroupName="MainMenu">
+                <RadioButton.Background>
+                    <ImageBrush ImageSource="/LineScanViewer;component/Resources/icon_ca.png" Stretch="None"/>
+                </RadioButton.Background>
+            </RadioButton>
+            <RadioButton Content="MODEL" FontSize="50" Grid.Row="4" Command="{Binding CmdLoadModelView}" Style="{DynamicResource RadioButtonMain}" GroupName="MainMenu">
+                <RadioButton.Background>
+                    <ImageBrush ImageSource="/LineScanViewer;component/Resources/icon_mo.png" Stretch="None"/>
+                </RadioButton.Background>
+            </RadioButton>
+            <RadioButton Content="SETTING" FontSize="50" Grid.Row="5" Command="{Binding CmdLoadConfigView}" Style="{DynamicResource RadioButtonMain}" GroupName="MainMenu">
+                <RadioButton.Background>
+                    <ImageBrush ImageSource="/LineScanViewer;component/Resources/icon_set.png" Stretch="None"/>
+                </RadioButton.Background>
+            </RadioButton>
+            <RadioButton Content="STORAGE FOLDER" FontSize="50" Grid.Row="6" Command="{Binding CmdLoadModelView}" Style="{DynamicResource RadioButtonMain}" GroupName="MainMenu">
+                <RadioButton.Background>
+                    <ImageBrush ImageSource="/LineScanViewer;component/Resources/icon_fo.png" Stretch="None"/>
+                </RadioButton.Background>
+            </RadioButton>
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="273" Height="50" Background="#FF1F8740">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="{Binding DateTimeNow}">
+
+                </Label>
+            </Grid>
+
+        </Grid>
+        <ContentControl Grid.Column="2" Content="{Binding UCMainView}" Grid.Row="2" Margin="0"/>
+        <Canvas x:Name="CanvasLeft"  HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="0" Width="60" Height="803" Grid.Row="1">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/LineScanViewer;component/Resources/left.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="CanvasRight" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="3" Grid.Row="1" Width="60" Height="803">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/LineScanViewer;component/Resources/right.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="CanvasTop" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="160" VerticalAlignment="Top" Width="1920">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/LineScanViewer;component/Resources/top.png" Stretch="None"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas x:Name="CanvasBottom" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="77" VerticalAlignment="Top" Width="1920" Grid.Row="3">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/LineScanViewer;component/Resources/bottom.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Label Content="{Binding MenuCategory}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="2" Grid.Row="1" Margin="50,0,0,5"/>
+    </Grid>
+</Window>
